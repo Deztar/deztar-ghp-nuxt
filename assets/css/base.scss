@@ -1,0 +1,114 @@
+@import '@css/color.scss';
+@import '@css/borders.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;1,400&display=swap');
+
+$font-size: 16px;
+$line-height: $font-size + 2px;
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  height: 1ch;
+  width: 1ch;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $color-background;
+  box-shadow: inset 0 0 1ch rgba(0, 0, 0, 0.3) !important;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-corner {
+  background-color: $color-border;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: $color-text;
+  background-color: $color-background;
+  margin: 0;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+a {
+  color: $color-link;
+}
+
+a:hover {
+  color: $color-link-hover;
+}
+
+button,
+select,
+input,
+option,
+.checkbox {
+  @include border-basic;
+  cursor: pointer;
+  color: $color-text;
+  background: inherit;
+  box-sizing: border-box;
+}
+
+option {
+  background: $color-background;
+}
+
+button:not(:disabled):hover,
+select:not(:disabled):hover,
+input:hover,
+.checkbox:not(.disabled):hover {
+  background-color: $color-border;
+}
+
+select:disabled,
+option:disabled,
+button:disabled {
+  color: $color-border !important;
+  cursor: default;
+}
+
+button:focus,
+select:focus,
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px $color-text;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::selection {
+  color: $color-background;
+  background-color: $color-black-25;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.neg {
+  color: $color-red;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
