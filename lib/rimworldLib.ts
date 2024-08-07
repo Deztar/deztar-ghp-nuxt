@@ -1,7 +1,6 @@
 import type { Crop, Soil, Settings, Recipe, Pawn } from "~/types/rimworldTypes"
 import { Mode, ProduceType } from "~/types/rimworldTypes"
-import { crops, defaultStackSize, pawns, realGrowthMult, recipes, soil } from "./rimworldData";
-import { buildDictFromArray, roundToCent } from "./helpers";
+import { crops, defaultStackSize, pawns, realGrowthMult, recipes, soil } from "./rimworldData"
 
 export const pawnDict: Record<string, Pawn> = buildDictFromArray(pawns, 'name')
 export const recipeDict: Record<string, Recipe> = buildDictFromArray(recipes, 'name')

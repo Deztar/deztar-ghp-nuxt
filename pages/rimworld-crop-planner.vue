@@ -217,7 +217,6 @@ import {
   filterDefault,
   barrelMult
 } from '~/lib/rimworldData'
-import { cloneJSON, roundToCent } from '~/lib/helpers'
 import type { RecordBase, Settings } from '~/types/rimworldTypes'
 import { Mode } from '~/types/rimworldTypes'
 import {

@@ -35,7 +35,6 @@
 <script setup lang="ts">
 import { images } from '~/lib/rimworldData'
 import { cropImages, descriptions } from '~/lib/rimworldLib'
-import { isObjectNotEmpty } from '~/lib/helpers'
 
 defineProps(['mode', 'result', 'drugResult'])
 </script>
