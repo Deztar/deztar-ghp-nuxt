@@ -1,8 +1,9 @@
 import { Mode, type Crop, type Drug, type RecordBase, type Soil, type Pawn, type Recipe } from "~/types/rimworldTypes"
 
-export const realGrowthMult = 1 / 0.5417; // 1 divided by sunny hours
-export const nutritionMult = 20; // 1 / 0.05 vegetables nutrition
-export const barrelMult = 6 / 25; // 25 beer every 6 days
+export const realGrowthMult = 1 / 0.5417 // 1 divided by sunny hours
+export const nutritionMult = 20 // 1 / 0.05 vegetables nutrition
+export const barrelMult = 6 / 25 // 25 beer every 6 days
+export const defaultStackSize = 75
 
 export const soil: Soil[] = [
   {
@@ -114,6 +115,7 @@ export const crops: Crop[] = [
     sensetivity: 0.6,
     nutrition: 0.3,
     image: 'https://rimworldwiki.com/images/d/d1/Hay_c.png',
+    stackSize: 200,
   },
   {
     name: 'Hop',
@@ -159,8 +161,8 @@ export const recordDefault: RecordBase = {
   amount: 1,
   name: '',
   pawn: 'Human',
-  recipe: 'Fine',
-  crop: 'Corn',
+  recipe: 'Simple',
+  crop: 'Rice',
   soil: 'Regular',
   useMeat: false,
   mode: Mode.Season,
@@ -707,7 +709,7 @@ export const recipes: Recipe[] = [
     },
   },
   {
-    name: 'Baby Food',
+    name: 'Baby food',
     input: {
       veg: 0.25,
     },
@@ -725,8 +727,9 @@ export const images: { [key: string]: string } = {
   barrel: 'https://rimworldwiki.com/images/d/d5/FermentingBarrel.png',
   harvest: 'https://rimworldwiki.com/images/3/38/HarvestPlants.png',
   zone: 'https://rimworldwiki.com/images/5/58/ZoneCreate_Growing.png',
+  shelf: 'https://rimworldwiki.com/images/d/dd/ShelfSmall_south.png',
 }
 
 export const filterDefault = [
-	null, null, null, null, true, true, null, null, null, true, true, null, null, true, true, null, null, true, true, null, null, null, true, null, null, null, null, null, null, null, null, true, true, true, null, null, null, null, null, true, true, null, null, true, true, null, true, true, true, null, true, null, true, null, true, null, true, true, true, null, null, true, true, true, null, null, true, true, true, null, true, true, null, null, true
+  false, false, false, true, true, true, true, true, false, true, true, true, true, true, true, false, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true
 ]
