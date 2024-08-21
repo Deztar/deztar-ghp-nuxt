@@ -1,0 +1,4596 @@
+[
+	{
+		"key": "wh2_dlc09_skv_tretch_craventail",
+		"caste": "lord",
+		"ui_group_icon": "infantry_spear",
+		"ui_unit_icon": "skv_tretch_craventail"
+	},
+	{
+		"key": "wh2_dlc09_tmb_arkhan",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "tmb_ch_arkhan"
+	},
+	{
+		"key": "wh2_dlc09_tmb_khalida",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "tmb_ch_khalida_campaign",
+		"variants": [
+			"tmb_ch_khalida_campaign"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_khatep",
+		"caste": "lord",
+		"ui_group_icon": "wh2_dlc09_lore_nehekhara",
+		"ui_unit_icon": "tmb_ch_khatep"
+	},
+	{
+		"key": "wh2_dlc09_tmb_liche_priest_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "tmb_liche_priest_campaign_01",
+		"variants": [
+			"tmb_liche_priest_campaign_01",
+			"tmb_liche_priest_campaign_02",
+			"tmb_liche_priest_campaign_03",
+			"tmb_liche_priest_campaign_04",
+			"tmb_liche_priest_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_liche_priest_light",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_light",
+		"ui_unit_icon": "tmb_liche_priest_campaign_01",
+		"variants": [
+			"tmb_liche_priest_campaign_01",
+			"tmb_liche_priest_campaign_02",
+			"tmb_liche_priest_campaign_03",
+			"tmb_liche_priest_campaign_04",
+			"tmb_liche_priest_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_liche_priest_nehekhara",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc09_lore_nehekhara",
+		"ui_unit_icon": "tmb_liche_priest_campaign_01",
+		"variants": [
+			"tmb_liche_priest_campaign_01",
+			"tmb_liche_priest_campaign_02",
+			"tmb_liche_priest_campaign_03",
+			"tmb_liche_priest_campaign_04",
+			"tmb_liche_priest_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_liche_priest_shadow",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "tmb_liche_priest_campaign_01",
+		"variants": [
+			"tmb_liche_priest_campaign_01",
+			"tmb_liche_priest_campaign_02",
+			"tmb_liche_priest_campaign_03",
+			"tmb_liche_priest_campaign_04",
+			"tmb_liche_priest_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_necrotect",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc09_tmb_necrotect",
+		"ui_unit_icon": "tmb_necrotect_campaign_01",
+		"variants": [
+			"tmb_necrotect_campaign_01",
+			"tmb_necrotect_campaign_02",
+			"tmb_necrotect_campaign_03",
+			"tmb_necrotect_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_settra",
+		"caste": "lord",
+		"ui_group_icon": "infantry_spear_halberd",
+		"ui_unit_icon": "tmb_ch_settra"
+	},
+	{
+		"key": "wh2_dlc09_tmb_tomb_king",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "tmb_ch_tomb_king_campaign_01",
+		"variants": [
+			"tmb_ch_tomb_king_campaign_01",
+			"tmb_ch_tomb_king_campaign_02",
+			"tmb_ch_tomb_king_campaign_03",
+			"tmb_ch_tomb_king_campaign_04",
+			"tmb_ch_tomb_king_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_tomb_king_alkhazzar_ii",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "tmb_ch_tomb_king_campaign_01",
+		"variants": [
+			"tmb_ch_tomb_king_campaign_01",
+			"tmb_ch_tomb_king_campaign_02",
+			"tmb_ch_tomb_king_campaign_03",
+			"tmb_ch_tomb_king_campaign_04",
+			"tmb_ch_tomb_king_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_tomb_king_lahmizzash",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "tmb_ch_tomb_king_campaign_01",
+		"variants": [
+			"tmb_ch_tomb_king_campaign_01",
+			"tmb_ch_tomb_king_campaign_02",
+			"tmb_ch_tomb_king_campaign_03",
+			"tmb_ch_tomb_king_campaign_04",
+			"tmb_ch_tomb_king_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_tomb_king_rakhash",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "tmb_ch_tomb_king_campaign_01",
+		"variants": [
+			"tmb_ch_tomb_king_campaign_01",
+			"tmb_ch_tomb_king_campaign_02",
+			"tmb_ch_tomb_king_campaign_03",
+			"tmb_ch_tomb_king_campaign_04",
+			"tmb_ch_tomb_king_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_tomb_king_setep",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "tmb_ch_tomb_king_campaign_01",
+		"variants": [
+			"tmb_ch_tomb_king_campaign_01",
+			"tmb_ch_tomb_king_campaign_02",
+			"tmb_ch_tomb_king_campaign_03",
+			"tmb_ch_tomb_king_campaign_04",
+			"tmb_ch_tomb_king_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_tomb_king_thutep",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "tmb_ch_tomb_king_campaign_01",
+		"variants": [
+			"tmb_ch_tomb_king_campaign_01",
+			"tmb_ch_tomb_king_campaign_02",
+			"tmb_ch_tomb_king_campaign_03",
+			"tmb_ch_tomb_king_campaign_04",
+			"tmb_ch_tomb_king_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_tomb_king_wakhaf",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "tmb_ch_tomb_king_campaign_01",
+		"variants": [
+			"tmb_ch_tomb_king_campaign_01",
+			"tmb_ch_tomb_king_campaign_02",
+			"tmb_ch_tomb_king_campaign_03",
+			"tmb_ch_tomb_king_campaign_04",
+			"tmb_ch_tomb_king_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc09_tmb_tomb_prince",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc09_tmb_tomb_prince",
+		"ui_unit_icon": "tmb_ch_tomb_prince_campaign_01",
+		"variants": [
+			"tmb_ch_tomb_prince_campaign_01",
+			"tmb_ch_tomb_prince_campaign_02",
+			"tmb_ch_tomb_prince_campaign_03",
+			"tmb_ch_tomb_prince_campaign_04",
+			"tmb_ch_tomb_prince_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc10_def_crone_hellebron",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "def_crone"
+	},
+	{
+		"key": "wh2_dlc10_def_sorceress_beasts",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "def_sorceress_campaign_01",
+		"variants": [
+			"def_sorceress_campaign_01",
+			"def_sorceress_campaign_02",
+			"def_sorceress_campaign_03",
+			"def_sorceress_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc10_def_sorceress_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "def_sorceress_campaign_01",
+		"variants": [
+			"def_sorceress_campaign_01",
+			"def_sorceress_campaign_02",
+			"def_sorceress_campaign_03",
+			"def_sorceress_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc10_def_supreme_sorceress_beasts",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "def_supreme_sorceress_campaign_01",
+		"variants": [
+			"def_supreme_sorceress_campaign_01",
+			"def_supreme_sorceress_campaign_02",
+			"def_supreme_sorceress_campaign_03",
+			"def_supreme_sorceress_campaign_04",
+			"def_supreme_sorceress_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc10_def_supreme_sorceress_dark",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_dark",
+		"ui_unit_icon": "def_supreme_sorceress_campaign_01",
+		"variants": [
+			"def_supreme_sorceress_campaign_01",
+			"def_supreme_sorceress_campaign_02",
+			"def_supreme_sorceress_campaign_03",
+			"def_supreme_sorceress_campaign_04",
+			"def_supreme_sorceress_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc10_def_supreme_sorceress_death",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "def_supreme_sorceress_campaign_01",
+		"variants": [
+			"def_supreme_sorceress_campaign_01",
+			"def_supreme_sorceress_campaign_02",
+			"def_supreme_sorceress_campaign_03",
+			"def_supreme_sorceress_campaign_04",
+			"def_supreme_sorceress_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc10_def_supreme_sorceress_fire",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "def_supreme_sorceress_campaign_01",
+		"variants": [
+			"def_supreme_sorceress_campaign_01",
+			"def_supreme_sorceress_campaign_02",
+			"def_supreme_sorceress_campaign_03",
+			"def_supreme_sorceress_campaign_04",
+			"def_supreme_sorceress_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc10_def_supreme_sorceress_shadow",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "def_supreme_sorceress_campaign_01",
+		"variants": [
+			"def_supreme_sorceress_campaign_01",
+			"def_supreme_sorceress_campaign_02",
+			"def_supreme_sorceress_campaign_03",
+			"def_supreme_sorceress_campaign_04",
+			"def_supreme_sorceress_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc10_hef_alarielle",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "hef_alarielle_campaign",
+		"variants": [
+			"hef_alarielle_campaign"
+		]
+	},
+	{
+		"key": "wh2_dlc10_hef_alith_anar",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "hef_alith_anar"
+	},
+	{
+		"key": "wh2_dlc10_hef_handmaiden",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc10_hef_handmaiden",
+		"ui_unit_icon": "hef_handmaiden_campaign_01",
+		"variants": [
+			"hef_handmaiden_campaign_01",
+			"hef_handmaiden_campaign_02",
+			"hef_handmaiden_campaign_03",
+			"hef_handmaiden_campaign_04",
+			"hef_handmaiden_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc10_hef_mage_heavens",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_heavens",
+		"ui_unit_icon": "hef_mage_campaign_01",
+		"variants": [
+			"hef_mage_campaign_01",
+			"hef_mage_campaign_02",
+			"hef_mage_campaign_03",
+			"hef_mage_campaign_04",
+			"hef_mage_campaign_05",
+			"hef_mage_campaign_06",
+			"hef_mage_campaign_07",
+			"hef_mage_campaign_08",
+			"hef_mage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc10_hef_mage_shadows",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "hef_mage_campaign_01",
+		"variants": [
+			"hef_mage_campaign_01",
+			"hef_mage_campaign_02",
+			"hef_mage_campaign_03",
+			"hef_mage_campaign_04",
+			"hef_mage_campaign_05",
+			"hef_mage_campaign_06",
+			"hef_mage_campaign_07",
+			"hef_mage_campaign_08",
+			"hef_mage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc10_hef_shadow_walker",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc10_hef_hand_of_the_shadowking",
+		"ui_unit_icon": "hef_shadow_walker"
+	},
+	{
+		"key": "wh2_dlc11_cst_admiral_death",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "cst_vampire_fleet_admiral_male_campaign_01",
+		"variants": [
+			"cst_vampire_fleet_admiral_male_campaign_01",
+			"cst_vampire_fleet_admiral_male_campaign_02",
+			"cst_vampire_fleet_admiral_male_campaign_03",
+			"cst_vampire_fleet_admiral_male_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_admiral_deep",
+		"caste": "lord",
+		"ui_group_icon": "wh2_dlc11_cst_lore_deeps",
+		"ui_unit_icon": "cst_vampire_fleet_admiral_male_campaign_01",
+		"variants": [
+			"cst_vampire_fleet_admiral_male_campaign_01",
+			"cst_vampire_fleet_admiral_male_campaign_02",
+			"cst_vampire_fleet_admiral_male_campaign_03",
+			"cst_vampire_fleet_admiral_male_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_admiral_fem_death",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "cst_cha_vampire_fleet_admiral_female_campaign_01",
+		"variants": [
+			"cst_cha_vampire_fleet_admiral_female_campaign_01",
+			"cst_cha_vampire_fleet_admiral_female_campaign_02",
+			"cst_cha_vampire_fleet_admiral_female_campaign_03",
+			"cst_cha_vampire_fleet_admiral_female_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_admiral_fem_deep",
+		"caste": "lord",
+		"ui_group_icon": "wh2_dlc11_cst_lore_deeps",
+		"ui_unit_icon": "cst_cha_vampire_fleet_admiral_female_campaign_01",
+		"variants": [
+			"cst_cha_vampire_fleet_admiral_female_campaign_01",
+			"cst_cha_vampire_fleet_admiral_female_campaign_02",
+			"cst_cha_vampire_fleet_admiral_female_campaign_03",
+			"cst_cha_vampire_fleet_admiral_female_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_admiral_fem_vampires",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "cst_cha_vampire_fleet_admiral_female_campaign_01",
+		"variants": [
+			"cst_cha_vampire_fleet_admiral_female_campaign_01",
+			"cst_cha_vampire_fleet_admiral_female_campaign_02",
+			"cst_cha_vampire_fleet_admiral_female_campaign_03",
+			"cst_cha_vampire_fleet_admiral_female_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_admiral_tech_01",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "cst_vampire_fleet_admiral_male_campaign_01",
+		"variants": [
+			"cst_vampire_fleet_admiral_male_campaign_01",
+			"cst_vampire_fleet_admiral_male_campaign_02",
+			"cst_vampire_fleet_admiral_male_campaign_03",
+			"cst_vampire_fleet_admiral_male_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_admiral_tech_02",
+		"caste": "lord",
+		"ui_group_icon": "wh2_dlc11_cst_lore_deeps",
+		"ui_unit_icon": "cst_vampire_fleet_admiral_male_campaign_01",
+		"variants": [
+			"cst_vampire_fleet_admiral_male_campaign_01",
+			"cst_vampire_fleet_admiral_male_campaign_02",
+			"cst_vampire_fleet_admiral_male_campaign_03",
+			"cst_vampire_fleet_admiral_male_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_admiral_tech_03",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "cst_vampire_fleet_admiral_male_campaign_01",
+		"variants": [
+			"cst_vampire_fleet_admiral_male_campaign_01",
+			"cst_vampire_fleet_admiral_male_campaign_02",
+			"cst_vampire_fleet_admiral_male_campaign_03",
+			"cst_vampire_fleet_admiral_male_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_admiral_tech_04",
+		"caste": "lord",
+		"ui_group_icon": "wh2_dlc11_cst_lore_deeps",
+		"ui_unit_icon": "cst_cha_vampire_fleet_admiral_female_campaign_01",
+		"variants": [
+			"cst_cha_vampire_fleet_admiral_female_campaign_01",
+			"cst_cha_vampire_fleet_admiral_female_campaign_02",
+			"cst_cha_vampire_fleet_admiral_female_campaign_03",
+			"cst_cha_vampire_fleet_admiral_female_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_admiral_vampires",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "cst_vampire_fleet_admiral_male_campaign_01",
+		"variants": [
+			"cst_vampire_fleet_admiral_male_campaign_01",
+			"cst_vampire_fleet_admiral_male_campaign_02",
+			"cst_vampire_fleet_admiral_male_campaign_03",
+			"cst_vampire_fleet_admiral_male_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_aranessa",
+		"caste": "lord",
+		"ui_group_icon": "infantry_spear_halberd",
+		"ui_unit_icon": "cst_cha_aranessa_saltspite"
+	},
+	{
+		"key": "wh2_dlc11_cst_cylostra",
+		"caste": "lord",
+		"ui_group_icon": "wh2_dlc11_cst_lore_deeps",
+		"ui_unit_icon": "cst_cylostra"
+	},
+	{
+		"key": "wh2_dlc11_cst_fleet_captain_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "cst_fleet_captain_campaign_01",
+		"variants": [
+			"cst_fleet_captain_campaign_01",
+			"cst_fleet_captain_campaign_02",
+			"cst_fleet_captain_campaign_03",
+			"cst_fleet_captain_campaign_04",
+			"cst_fleet_captain_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_fleet_captain_deep",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc11_cst_lore_deeps",
+		"ui_unit_icon": "cst_fleet_captain_campaign_01",
+		"variants": [
+			"cst_fleet_captain_campaign_01",
+			"cst_fleet_captain_campaign_02",
+			"cst_fleet_captain_campaign_03",
+			"cst_fleet_captain_campaign_04",
+			"cst_fleet_captain_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_fleet_captain_vampires",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "cst_fleet_captain_campaign_01",
+		"variants": [
+			"cst_fleet_captain_campaign_01",
+			"cst_fleet_captain_campaign_02",
+			"cst_fleet_captain_campaign_03",
+			"cst_fleet_captain_campaign_04",
+			"cst_fleet_captain_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_ghost_paladin",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_brt_champion",
+		"ui_unit_icon": "cst_damned_paladin"
+	},
+	{
+		"key": "wh2_dlc11_cst_gunnery_wight",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc11_cst_gunnery_wight",
+		"ui_unit_icon": "cst_gunnery_wight_campaign_01",
+		"variants": [
+			"cst_gunnery_wight_campaign_01",
+			"cst_gunnery_wight_campaign_02",
+			"cst_gunnery_wight_campaign_03",
+			"cst_gunnery_wight_campaign_04",
+			"cst_gunnery_wight_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_harkon",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "cst_cha_luthor_harkon"
+	},
+	{
+		"key": "wh2_dlc11_cst_mourngul",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc11_cst_mourngul_haunter",
+		"ui_unit_icon": "cst_mourngul_haunter_campaign_01",
+		"variants": [
+			"cst_mourngul_haunter_campaign_01",
+			"cst_mourngul_haunter_campaign_02",
+			"cst_mourngul_haunter_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc11_cst_noctilus",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "cst_cha_count_noctilus"
+	},
+	{
+		"key": "wh2_dlc11_def_lokhir",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "def_cha_lokhir"
+	},
+	{
+		"key": "wh2_dlc11_vmp_bloodline_blood_dragon",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_bloodline_blood_dragon_lord_campaign_01",
+		"variants": [
+			"vmp_bloodline_blood_dragon_lord_campaign_01"
+		]
+	},
+	{
+		"key": "wh2_dlc11_vmp_bloodline_lahmian",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_bloodline_lahmian_lord_campaign_01",
+		"variants": [
+			"vmp_bloodline_lahmian_lord_campaign_01"
+		]
+	},
+	{
+		"key": "wh2_dlc11_vmp_bloodline_necrarch",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_bloodline_necrarch_lord_campaign_01",
+		"variants": [
+			"vmp_bloodline_necrarch_lord_campaign_01"
+		]
+	},
+	{
+		"key": "wh2_dlc11_vmp_bloodline_strigoi",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_bloodline_strigoi_lord_campaign_01",
+		"variants": [
+			"vmp_bloodline_strigoi_lord_campaign_01"
+		]
+	},
+	{
+		"key": "wh2_dlc11_vmp_bloodline_von_carstein",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_bloodline_von_carstein_lord_campaign_01",
+		"variants": [
+			"vmp_bloodline_von_carstein_lord_campaign_01"
+		]
+	},
+	{
+		"key": "wh2_dlc12_lzd_lord_kroak",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc12_magic_lore_generic",
+		"ui_unit_icon": "lzd_lord_kroak"
+	},
+	{
+		"key": "wh2_dlc12_lzd_red_crested_skink_chief",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_great",
+		"ui_unit_icon": "lzd_skink_chief_red_crested_campaign_01",
+		"variants": [
+			"lzd_skink_chief_red_crested_campaign_01",
+			"lzd_skink_chief_red_crested_campaign_02",
+			"lzd_skink_chief_red_crested_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc12_lzd_red_crested_skink_chief_legendary",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_great",
+		"ui_unit_icon": "lzd_skink_chief_red_crested_campaign_01",
+		"variants": [
+			"lzd_skink_chief_red_crested_campaign_01",
+			"lzd_skink_chief_red_crested_campaign_02",
+			"lzd_skink_chief_red_crested_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc12_lzd_tehenhauin",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "lzd_tehenhauin",
+		"variants": [
+			"lzd_tehenhauin"
+		]
+	},
+	{
+		"key": "wh2_dlc12_lzd_tiktaqto",
+		"caste": "lord",
+		"ui_group_icon": "cavalry_flying",
+		"ui_unit_icon": "lzd_tiktaqto"
+	},
+	{
+		"key": "wh2_dlc12_lzd_tlaqua_skink_chief",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_lzd_spy",
+		"ui_unit_icon": "lzd_skink_chief_campaign_01",
+		"variants": [
+			"lzd_skink_chief_campaign_01",
+			"lzd_skink_chief_campaign_02",
+			"lzd_skink_chief_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc12_lzd_tlaqua_skink_priest_beasts",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "lzd_skink_priest_campaign_01",
+		"variants": [
+			"lzd_skink_priest_campaign_01",
+			"lzd_skink_priest_campaign_02",
+			"lzd_skink_priest_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc12_lzd_tlaqua_skink_priest_heavens",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_heavens",
+		"ui_unit_icon": "lzd_skink_priest_campaign_01",
+		"variants": [
+			"lzd_skink_priest_campaign_01",
+			"lzd_skink_priest_campaign_02",
+			"lzd_skink_priest_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc12_skv_ikit_claw",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_ruin",
+		"ui_unit_icon": "skv_ikit_claw_campaign"
+	},
+	{
+		"key": "wh2_dlc12_skv_warlock_master",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_ruin",
+		"ui_unit_icon": "skv_warlock_master_campaign_01",
+		"variants": [
+			"skv_warlock_master_campaign_01",
+			"skv_warlock_master_campaign_02",
+			"skv_warlock_master_campaign_03",
+			"skv_warlock_master_campaign_04",
+			"skv_warlock_master_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc13_emp_cha_huntsmarshal",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "emp_huntsmarshal_campaign_01",
+		"variants": [
+			"emp_huntsmarshal_campaign_01",
+			"emp_huntsmarshal_campaign_02",
+			"emp_huntsmarshal_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc13_emp_cha_markus_wulfhart",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "emp_markus"
+	},
+	{
+		"key": "wh2_dlc13_emp_hunter_doctor_hertwig_van_hal",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_emp_spy",
+		"ui_unit_icon": "emp_witch_hunter_hertwig_ror"
+	},
+	{
+		"key": "wh2_dlc13_emp_hunter_jorek_grimm",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_dwf_master_engineer",
+		"ui_unit_icon": "dwf_master_engineer_jorek_ror"
+	},
+	{
+		"key": "wh2_dlc13_emp_hunter_kalara_of_wydrioth",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_waystalker",
+		"ui_unit_icon": "wef_glade_female_lord_kalara_sword_bow_ror_01"
+	},
+	{
+		"key": "wh2_dlc13_emp_hunter_rodrik_l_anguille",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_brt_champion",
+		"ui_unit_icon": "emp_paladin_rodrik"
+	},
+	{
+		"key": "wh2_dlc13_lzd_gor_rok",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lzd_infantry_mace",
+		"ui_unit_icon": "lzd_lord_gor_rok"
+	},
+	{
+		"key": "wh2_dlc13_lzd_kroxigor_ancient",
+		"caste": "lord",
+		"ui_group_icon": "monstrous_infantry",
+		"ui_unit_icon": "lzd_kroxigor_ancient_campaign_01",
+		"variants": [
+			"lzd_kroxigor_ancient_campaign_01",
+			"lzd_kroxigor_ancient_campaign_02",
+			"lzd_kroxigor_ancient_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc13_lzd_nakai",
+		"caste": "lord",
+		"ui_group_icon": "monstrous_infantry",
+		"ui_unit_icon": "lzd_nakai"
+	},
+	{
+		"key": "wh2_dlc13_lzd_slann_mage_priest_beasts",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "lzd_slann_campaign_01",
+		"variants": [
+			"lzd_slann_campaign_01",
+			"lzd_slann_campaign_02",
+			"lzd_slann_campaign_03",
+			"lzd_slann_campaign_04",
+			"lzd_slann_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc13_lzd_slann_mage_priest_death",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "lzd_slann_campaign_01",
+		"variants": [
+			"lzd_slann_campaign_01",
+			"lzd_slann_campaign_02",
+			"lzd_slann_campaign_03",
+			"lzd_slann_campaign_04",
+			"lzd_slann_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc13_lzd_slann_mage_priest_fire",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "lzd_slann_campaign_01",
+		"variants": [
+			"lzd_slann_campaign_01",
+			"lzd_slann_campaign_02",
+			"lzd_slann_campaign_03",
+			"lzd_slann_campaign_04",
+			"lzd_slann_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc13_lzd_slann_mage_priest_heavens",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_heavens",
+		"ui_unit_icon": "lzd_slann_campaign_01",
+		"variants": [
+			"lzd_slann_campaign_01",
+			"lzd_slann_campaign_02",
+			"lzd_slann_campaign_03",
+			"lzd_slann_campaign_04",
+			"lzd_slann_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc13_lzd_slann_mage_priest_high",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_high",
+		"ui_unit_icon": "lzd_slann_campaign_01",
+		"variants": [
+			"lzd_slann_campaign_01",
+			"lzd_slann_campaign_02",
+			"lzd_slann_campaign_03",
+			"lzd_slann_campaign_04",
+			"lzd_slann_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc13_lzd_slann_mage_priest_life",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "lzd_slann_campaign_01",
+		"variants": [
+			"lzd_slann_campaign_01",
+			"lzd_slann_campaign_02",
+			"lzd_slann_campaign_03",
+			"lzd_slann_campaign_04",
+			"lzd_slann_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc13_lzd_slann_mage_priest_metal",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "lzd_slann_campaign_01",
+		"variants": [
+			"lzd_slann_campaign_01",
+			"lzd_slann_campaign_02",
+			"lzd_slann_campaign_03",
+			"lzd_slann_campaign_04",
+			"lzd_slann_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc13_lzd_slann_mage_priest_shadows",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "lzd_slann_campaign_01",
+		"variants": [
+			"lzd_slann_campaign_01",
+			"lzd_slann_campaign_02",
+			"lzd_slann_campaign_03",
+			"lzd_slann_campaign_04",
+			"lzd_slann_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc14_brt_henri_le_massif",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_brt_champion",
+		"ui_unit_icon": "brt_henri_le_massif"
+	},
+	{
+		"key": "wh2_dlc14_brt_repanse",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword_great",
+		"ui_unit_icon": "brt_repanse_de_lyonesse"
+	},
+	{
+		"key": "wh2_dlc14_def_high_beastmaster",
+		"caste": "lord",
+		"ui_group_icon": "wh2_dlc14_lord_spear_whip",
+		"ui_unit_icon": "def_beastmaster_campaign_01",
+		"variants": [
+			"def_beastmaster_campaign_01",
+			"def_beastmaster_campaign_02",
+			"def_beastmaster_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc14_def_malus_darkblade",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "def_malus"
+	},
+	{
+		"key": "wh2_dlc14_def_master",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc14_def_champion",
+		"ui_unit_icon": "def_master_campaign_01",
+		"variants": [
+			"def_master_campaign_01",
+			"def_master_campaign_02",
+			"def_master_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc14_skv_deathmaster_snikch",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_infantry_dual_swords",
+		"ui_unit_icon": "skv_snikch"
+	},
+	{
+		"key": "wh2_dlc14_skv_eshin_sorcerer",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc14_lore_stealth",
+		"ui_unit_icon": "skv_sorcerer_campaign_01",
+		"variants": [
+			"skv_sorcerer_campaign_01",
+			"skv_sorcerer_campaign_02",
+			"skv_sorcerer_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc14_skv_master_assassin",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword_grn",
+		"ui_unit_icon": "skv_assassin_master_campaign_01",
+		"variants": [
+			"skv_assassin_master_campaign_01",
+			"skv_assassin_master_campaign_02",
+			"skv_assassin_master_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc15_grn_goblin_great_shaman_raknik",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_lil_waaagh",
+		"ui_unit_icon": "grn_goblin_great_shaman_campaign_01",
+		"variants": [
+			"grn_goblin_great_shaman_campaign_01",
+			"grn_goblin_great_shaman_campaign_02",
+			"grn_goblin_great_shaman_campaign_03",
+			"grn_goblin_great_shaman_campaign_04",
+			"grn_goblin_great_shaman_campaign_05",
+			"grn_goblin_great_shaman_campaign_06"
+		]
+	},
+	{
+		"key": "wh2_dlc15_grn_grom_the_paunch",
+		"caste": "lord",
+		"ui_group_icon": "chariot",
+		"ui_unit_icon": "grn_grom_the_paunch"
+	},
+	{
+		"key": "wh2_dlc15_grn_orc_warboss_oglok",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword_grn",
+		"ui_unit_icon": "grn_orc_warbosses_campaign_01",
+		"variants": [
+			"grn_orc_warbosses_campaign_01",
+			"grn_orc_warbosses_campaign_02",
+			"grn_orc_warbosses_campaign_03",
+			"grn_orc_warbosses_campaign_04",
+			"grn_orc_warbosses_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc15_grn_river_troll_hag",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "grn_troll_hag_campaign_01",
+		"variants": [
+			"grn_troll_hag_campaign_01",
+			"grn_troll_hag_campaign_02",
+			"grn_troll_hag_campaign_03",
+			"grn_troll_hag_campaign_04",
+			"grn_troll_hag_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_archmage_beasts",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "hef_archmage_campaign_01",
+		"variants": [
+			"hef_archmage_campaign_01",
+			"hef_archmage_campaign_02",
+			"hef_archmage_campaign_03",
+			"hef_archmage_campaign_04",
+			"hef_archmage_campaign_05",
+			"hef_archmage_campaign_06",
+			"hef_archmage_campaign_07",
+			"hef_archmage_campaign_08",
+			"hef_archmage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_archmage_death",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "hef_archmage_campaign_01",
+		"variants": [
+			"hef_archmage_campaign_01",
+			"hef_archmage_campaign_02",
+			"hef_archmage_campaign_03",
+			"hef_archmage_campaign_04",
+			"hef_archmage_campaign_05",
+			"hef_archmage_campaign_06",
+			"hef_archmage_campaign_07",
+			"hef_archmage_campaign_08",
+			"hef_archmage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_archmage_fire",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "hef_archmage_campaign_01",
+		"variants": [
+			"hef_archmage_campaign_01",
+			"hef_archmage_campaign_02",
+			"hef_archmage_campaign_03",
+			"hef_archmage_campaign_04",
+			"hef_archmage_campaign_05",
+			"hef_archmage_campaign_06",
+			"hef_archmage_campaign_07",
+			"hef_archmage_campaign_08",
+			"hef_archmage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_archmage_heavens",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_heavens",
+		"ui_unit_icon": "hef_archmage_campaign_01",
+		"variants": [
+			"hef_archmage_campaign_01",
+			"hef_archmage_campaign_02",
+			"hef_archmage_campaign_03",
+			"hef_archmage_campaign_04",
+			"hef_archmage_campaign_05",
+			"hef_archmage_campaign_06",
+			"hef_archmage_campaign_07",
+			"hef_archmage_campaign_08",
+			"hef_archmage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_archmage_high",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_high",
+		"ui_unit_icon": "hef_archmage_campaign_01",
+		"variants": [
+			"hef_archmage_campaign_01",
+			"hef_archmage_campaign_02",
+			"hef_archmage_campaign_03",
+			"hef_archmage_campaign_04",
+			"hef_archmage_campaign_05",
+			"hef_archmage_campaign_06",
+			"hef_archmage_campaign_07",
+			"hef_archmage_campaign_08",
+			"hef_archmage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_archmage_life",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "hef_archmage_campaign_01",
+		"variants": [
+			"hef_archmage_campaign_01",
+			"hef_archmage_campaign_02",
+			"hef_archmage_campaign_03",
+			"hef_archmage_campaign_04",
+			"hef_archmage_campaign_05",
+			"hef_archmage_campaign_06",
+			"hef_archmage_campaign_07",
+			"hef_archmage_campaign_08",
+			"hef_archmage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_archmage_light",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_light",
+		"ui_unit_icon": "hef_archmage_campaign_01",
+		"variants": [
+			"hef_archmage_campaign_01",
+			"hef_archmage_campaign_02",
+			"hef_archmage_campaign_03",
+			"hef_archmage_campaign_04",
+			"hef_archmage_campaign_05",
+			"hef_archmage_campaign_06",
+			"hef_archmage_campaign_07",
+			"hef_archmage_campaign_08",
+			"hef_archmage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_archmage_metal",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "hef_archmage_campaign_01",
+		"variants": [
+			"hef_archmage_campaign_01",
+			"hef_archmage_campaign_02",
+			"hef_archmage_campaign_03",
+			"hef_archmage_campaign_04",
+			"hef_archmage_campaign_05",
+			"hef_archmage_campaign_06",
+			"hef_archmage_campaign_07",
+			"hef_archmage_campaign_08",
+			"hef_archmage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_archmage_shadows",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "hef_archmage_campaign_01",
+		"variants": [
+			"hef_archmage_campaign_01",
+			"hef_archmage_campaign_02",
+			"hef_archmage_campaign_03",
+			"hef_archmage_campaign_04",
+			"hef_archmage_campaign_05",
+			"hef_archmage_campaign_06",
+			"hef_archmage_campaign_07",
+			"hef_archmage_campaign_08",
+			"hef_archmage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_eltharion",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "hef_eltharion"
+	},
+	{
+		"key": "wh2_dlc15_hef_imrik",
+		"caste": "lord",
+		"ui_group_icon": "infantry_spear_halberd",
+		"ui_unit_icon": "hef_imrik_unmounted"
+	},
+	{
+		"key": "wh2_dlc15_hef_mage_beasts",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "hef_mage_campaign_01",
+		"variants": [
+			"hef_mage_campaign_01",
+			"hef_mage_campaign_02",
+			"hef_mage_campaign_03",
+			"hef_mage_campaign_04",
+			"hef_mage_campaign_05",
+			"hef_mage_campaign_06",
+			"hef_mage_campaign_07",
+			"hef_mage_campaign_08",
+			"hef_mage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_mage_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "hef_mage_campaign_01",
+		"variants": [
+			"hef_mage_campaign_01",
+			"hef_mage_campaign_02",
+			"hef_mage_campaign_03",
+			"hef_mage_campaign_04",
+			"hef_mage_campaign_05",
+			"hef_mage_campaign_06",
+			"hef_mage_campaign_07",
+			"hef_mage_campaign_08",
+			"hef_mage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_mage_fire",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "hef_mage_campaign_01",
+		"variants": [
+			"hef_mage_campaign_01",
+			"hef_mage_campaign_02",
+			"hef_mage_campaign_03",
+			"hef_mage_campaign_04",
+			"hef_mage_campaign_05",
+			"hef_mage_campaign_06",
+			"hef_mage_campaign_07",
+			"hef_mage_campaign_08",
+			"hef_mage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc15_hef_mage_metal",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "hef_mage_campaign_01",
+		"variants": [
+			"hef_mage_campaign_01",
+			"hef_mage_campaign_02",
+			"hef_mage_campaign_03",
+			"hef_mage_campaign_04",
+			"hef_mage_campaign_05",
+			"hef_mage_campaign_06",
+			"hef_mage_campaign_07",
+			"hef_mage_campaign_08",
+			"hef_mage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_dlc16_skv_chieftain",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc16_skv_chieftain",
+		"ui_unit_icon": "skv_chieftain_campaign_01",
+		"variants": [
+			"skv_chieftain_campaign_01",
+			"skv_chieftain_campaign_02",
+			"skv_chieftain_campaign_03",
+			"skv_chieftain_campaign_04",
+			"skv_chieftain_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc16_skv_ghoritch",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc16_skv_ghoritch",
+		"ui_unit_icon": "skv_ghoritch"
+	},
+	{
+		"key": "wh2_dlc16_skv_packmaster",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc16_skv_packmaster",
+		"ui_unit_icon": "skv_packmaster_campaign_01",
+		"variants": [
+			"skv_packmaster_campaign_01",
+			"skv_packmaster_campaign_02",
+			"skv_packmaster_campaign_03",
+			"skv_packmaster_campaign_04",
+			"skv_packmaster_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc16_skv_throt_the_unclean",
+		"caste": "lord",
+		"ui_group_icon": "wh2_dlc16_skv_packmaster",
+		"ui_unit_icon": "skv_throt_campaign",
+		"variants": [
+			"skv_throt_campaign"
+		]
+	},
+	{
+		"key": "wh2_dlc16_wef_ariel",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc12_magic_lore_generic",
+		"ui_unit_icon": "wef_ariel"
+	},
+	{
+		"key": "wh2_dlc16_wef_coeddil",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_treeman",
+		"ui_unit_icon": "wef_ancient_treeman_coeddil",
+		"variants": [
+			"wef_ancient_treeman_coeddil"
+		]
+	},
+	{
+		"key": "wh2_dlc16_wef_coeddil_qb",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_treeman",
+		"ui_unit_icon": "wef_ancient_treeman_coeddil",
+		"variants": [
+			"wef_ancient_treeman_coeddil"
+		]
+	},
+	{
+		"key": "wh2_dlc16_wef_drycha",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "wef_drycha"
+	},
+	{
+		"key": "wh2_dlc16_wef_malicious_ancient_treeman_beasts",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_treeman",
+		"ui_unit_icon": "wef_ancient_treeman_malicious"
+	},
+	{
+		"key": "wh2_dlc16_wef_malicious_ancient_treeman_life",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_treeman",
+		"ui_unit_icon": "wef_ancient_treeman_malicious"
+	},
+	{
+		"key": "wh2_dlc16_wef_malicious_ancient_treeman_shadows",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_treeman",
+		"ui_unit_icon": "wef_ancient_treeman_malicious"
+	},
+	{
+		"key": "wh2_dlc16_wef_malicious_branchwraith_beasts",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "wef_branchwraith_malicious"
+	},
+	{
+		"key": "wh2_dlc16_wef_malicious_branchwraith_life",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "wef_branchwraith_malicious"
+	},
+	{
+		"key": "wh2_dlc16_wef_malicious_branchwraith_shadows",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "wef_branchwraith_malicious"
+	},
+	{
+		"key": "wh2_dlc16_wef_sisters_of_twilight",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_great_eagle",
+		"ui_unit_icon": "wef_sisters_of_twilight_campaign",
+		"variants": [
+			"wef_sisters_of_twilight_campaign"
+		]
+	},
+	{
+		"key": "wh2_dlc16_wef_spellweaver_beasts",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "wef_spellweaver_campaign_01",
+		"variants": [
+			"wef_spellweaver_campaign_01",
+			"wef_spellweaver_campaign_02",
+			"wef_spellweaver_campaign_03",
+			"wef_spellweaver_campaign_04",
+			"wef_spellweaver_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc16_wef_spellweaver_dark",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_dark",
+		"ui_unit_icon": "wef_spellweaver_campaign_01",
+		"variants": [
+			"wef_spellweaver_campaign_01",
+			"wef_spellweaver_campaign_02",
+			"wef_spellweaver_campaign_03",
+			"wef_spellweaver_campaign_04",
+			"wef_spellweaver_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc16_wef_spellweaver_high",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_high",
+		"ui_unit_icon": "wef_spellweaver_campaign_01",
+		"variants": [
+			"wef_spellweaver_campaign_01",
+			"wef_spellweaver_campaign_02",
+			"wef_spellweaver_campaign_03",
+			"wef_spellweaver_campaign_04",
+			"wef_spellweaver_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc16_wef_spellweaver_life",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "wef_spellweaver_campaign_01",
+		"variants": [
+			"wef_spellweaver_campaign_01",
+			"wef_spellweaver_campaign_02",
+			"wef_spellweaver_campaign_03",
+			"wef_spellweaver_campaign_04",
+			"wef_spellweaver_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc16_wef_spellweaver_shadows",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "wef_spellweaver_campaign_01",
+		"variants": [
+			"wef_spellweaver_campaign_01",
+			"wef_spellweaver_campaign_02",
+			"wef_spellweaver_campaign_03",
+			"wef_spellweaver_campaign_04",
+			"wef_spellweaver_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc17_bst_doombull",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_bst_gorebull",
+		"ui_unit_icon": "bst_doombull_campaign_01",
+		"variants": [
+			"bst_doombull_campaign_01",
+			"bst_doombull_campaign_02",
+			"bst_doombull_campaign_03",
+			"bst_doombull_campaign_04",
+			"bst_doombull_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc17_bst_taurox",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_bst_gorebull",
+		"ui_unit_icon": "bst_taurox"
+	},
+	{
+		"key": "wh2_dlc17_bst_wargor",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc17_bst_wargor",
+		"ui_unit_icon": "bst_wargor_campaign_01",
+		"variants": [
+			"bst_wargor_campaign_01",
+			"bst_wargor_campaign_02",
+			"bst_wargor_campaign_03",
+			"bst_wargor_campaign_04",
+			"bst_wargor_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_dlc17_dwf_thane_ghost_artifact",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_dwf_champion",
+		"ui_unit_icon": "dwf_thane_ghost_03",
+		"variants": [
+			"dwf_thane_ghost_03"
+		]
+	},
+	{
+		"key": "wh2_dlc17_dwf_thorek",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_dwf_runesmith",
+		"ui_unit_icon": "dwf_thorek"
+	},
+	{
+		"key": "wh2_dlc17_lzd_oxyotl",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lzd_spy",
+		"ui_unit_icon": "lzd_oxyotl"
+	},
+	{
+		"key": "wh2_dlc17_lzd_skink_oracle_troglodon",
+		"caste": "hero",
+		"ui_group_icon": "wh2_dlc17_lzd_skink_oracle",
+		"ui_unit_icon": "lzd_skink_oracle_campaign_01",
+		"variants": [
+			"lzd_skink_oracle_campaign_01",
+			"lzd_skink_oracle_campaign_02",
+			"lzd_skink_oracle_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_dlc17_vmp_kevon_lloydstein",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_vmp_champion",
+		"ui_unit_icon": "vmp_wight_king_sword_campaign_01",
+		"variants": [
+			"vmp_wight_king_sword_campaign_01",
+			"vmp_wight_king_sword_campaign_02",
+			"vmp_wight_king_sword_campaign_03",
+			"vmp_wight_king_sword_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_main_def_death_hag",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_def_dignitary",
+		"ui_unit_icon": "def_death_hag_campaign_01",
+		"variants": [
+			"def_death_hag_campaign_01",
+			"def_death_hag_campaign_02",
+			"def_death_hag_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_def_dreadlord",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "def_dreadlord_campaign_01",
+		"variants": [
+			"def_dreadlord_campaign_01",
+			"def_dreadlord_campaign_02",
+			"def_dreadlord_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_def_dreadlord_fem",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "def_dreadlord_female_campaign_01",
+		"variants": [
+			"def_dreadlord_female_campaign_01",
+			"def_dreadlord_female_campaign_02",
+			"def_dreadlord_female_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_def_khainite_assassin",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_def_spy",
+		"ui_unit_icon": "def_assassin_campaign_01",
+		"variants": [
+			"def_assassin_campaign_01",
+			"def_assassin_campaign_02",
+			"def_assassin_campaign_03",
+			"def_assassin_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_main_def_malekith",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_dark",
+		"ui_unit_icon": "def_malekith"
+	},
+	{
+		"key": "wh2_main_def_morathi",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_dark",
+		"ui_unit_icon": "def_morathi"
+	},
+	{
+		"key": "wh2_main_def_sorceress_dark",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_lore_dark",
+		"ui_unit_icon": "def_sorceress_campaign_01",
+		"variants": [
+			"def_sorceress_campaign_01",
+			"def_sorceress_campaign_02",
+			"def_sorceress_campaign_03",
+			"def_sorceress_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_main_def_sorceress_fire",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "def_sorceress_campaign_01",
+		"variants": [
+			"def_sorceress_campaign_01",
+			"def_sorceress_campaign_02",
+			"def_sorceress_campaign_03",
+			"def_sorceress_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_main_def_sorceress_shadow",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "def_sorceress_campaign_01",
+		"variants": [
+			"def_sorceress_campaign_01",
+			"def_sorceress_campaign_02",
+			"def_sorceress_campaign_03",
+			"def_sorceress_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_main_hef_loremaster_of_hoeth",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_hef_loremaster",
+		"ui_unit_icon": "hef_loremaster_campaign_01",
+		"variants": [
+			"hef_loremaster_campaign_01",
+			"hef_loremaster_campaign_02",
+			"hef_loremaster_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_hef_mage_high",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_lore_high",
+		"ui_unit_icon": "hef_mage_campaign_01",
+		"variants": [
+			"hef_mage_campaign_01",
+			"hef_mage_campaign_02",
+			"hef_mage_campaign_03",
+			"hef_mage_campaign_04",
+			"hef_mage_campaign_05",
+			"hef_mage_campaign_06",
+			"hef_mage_campaign_07",
+			"hef_mage_campaign_08",
+			"hef_mage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_main_hef_mage_life",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "hef_mage_campaign_01",
+		"variants": [
+			"hef_mage_campaign_01",
+			"hef_mage_campaign_02",
+			"hef_mage_campaign_03",
+			"hef_mage_campaign_04",
+			"hef_mage_campaign_05",
+			"hef_mage_campaign_06",
+			"hef_mage_campaign_07",
+			"hef_mage_campaign_08",
+			"hef_mage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_main_hef_mage_light",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_light",
+		"ui_unit_icon": "hef_mage_campaign_01",
+		"variants": [
+			"hef_mage_campaign_01",
+			"hef_mage_campaign_02",
+			"hef_mage_campaign_03",
+			"hef_mage_campaign_04",
+			"hef_mage_campaign_05",
+			"hef_mage_campaign_06",
+			"hef_mage_campaign_07",
+			"hef_mage_campaign_08",
+			"hef_mage_campaign_09"
+		]
+	},
+	{
+		"key": "wh2_main_hef_noble",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_hef_champion",
+		"ui_unit_icon": "hef_noble_campaign_01",
+		"variants": [
+			"hef_noble_campaign_01",
+			"hef_noble_campaign_02",
+			"hef_noble_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_hef_prince",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "hef_prince_campaign_01",
+		"variants": [
+			"hef_prince_campaign_01",
+			"hef_prince_campaign_02",
+			"hef_prince_campaign_03",
+			"hef_prince_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_main_hef_prince_alastar",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe",
+		"ui_unit_icon": "hef_alastair"
+	},
+	{
+		"key": "wh2_main_hef_princess",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "hef_princess_campaign_01",
+		"variants": [
+			"hef_princess_campaign_01",
+			"hef_princess_campaign_02",
+			"hef_princess_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_hef_teclis",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_high",
+		"ui_unit_icon": "hef_teclis"
+	},
+	{
+		"key": "wh2_main_hef_tyrion",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "hef_tyrion"
+	},
+	{
+		"key": "wh2_main_lzd_kroq_gar",
+		"caste": "lord",
+		"ui_group_icon": "infantry_spear",
+		"ui_unit_icon": "lzd_lord_kroq_gar"
+	},
+	{
+		"key": "wh2_main_lzd_lord_mazdamundi",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_high",
+		"ui_unit_icon": "lzd_lord_mazdamundi"
+	},
+	{
+		"key": "wh2_main_lzd_saurus_old_blood",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lzd_infantry_mace",
+		"ui_unit_icon": "lzd_lord_saurus_old_blood_campaign_01",
+		"variants": [
+			"lzd_lord_saurus_old_blood_campaign_01",
+			"lzd_lord_saurus_old_blood_campaign_02",
+			"lzd_lord_saurus_old_blood_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_lzd_saurus_scar_veteran",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_lzd_champion",
+		"ui_unit_icon": "lzd_hero_saurus_scar_veteran_campaign_01",
+		"variants": [
+			"lzd_hero_saurus_scar_veteran_campaign_01",
+			"lzd_hero_saurus_scar_veteran_campaign_02",
+			"lzd_hero_saurus_scar_veteran_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_lzd_skink_chief",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_lzd_spy",
+		"ui_unit_icon": "lzd_skink_chief_campaign_01",
+		"variants": [
+			"lzd_skink_chief_campaign_01",
+			"lzd_skink_chief_campaign_02",
+			"lzd_skink_chief_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_lzd_skink_priest_beasts",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "lzd_skink_priest_campaign_01",
+		"variants": [
+			"lzd_skink_priest_campaign_01",
+			"lzd_skink_priest_campaign_02",
+			"lzd_skink_priest_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_lzd_skink_priest_heavens",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_heavens",
+		"ui_unit_icon": "lzd_skink_priest_campaign_01",
+		"variants": [
+			"lzd_skink_priest_campaign_01",
+			"lzd_skink_priest_campaign_02",
+			"lzd_skink_priest_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_lzd_slann_mage_priest",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_light",
+		"ui_unit_icon": "lzd_slann_campaign_01",
+		"variants": [
+			"lzd_slann_campaign_01",
+			"lzd_slann_campaign_02",
+			"lzd_slann_campaign_03",
+			"lzd_slann_campaign_04",
+			"lzd_slann_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_main_skv_assassin",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_skv_spy",
+		"ui_unit_icon": "skv_assassin_campaign_01",
+		"variants": [
+			"skv_assassin_campaign_01",
+			"skv_assassin_campaign_02",
+			"skv_assassin_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_skv_grey_seer_plague",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_plague",
+		"ui_unit_icon": "skv_grey_seer_campaign_01",
+		"variants": [
+			"skv_grey_seer_campaign_01",
+			"skv_grey_seer_campaign_02",
+			"skv_grey_seer_campaign_03",
+			"skv_grey_seer_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_main_skv_grey_seer_ruin",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_ruin",
+		"ui_unit_icon": "skv_grey_seer_campaign_01",
+		"variants": [
+			"skv_grey_seer_campaign_01",
+			"skv_grey_seer_campaign_02",
+			"skv_grey_seer_campaign_03",
+			"skv_grey_seer_campaign_04"
+		]
+	},
+	{
+		"key": "wh2_main_skv_lord_skrolk",
+		"caste": "lord",
+		"ui_group_icon": "wh2_main_lore_plague",
+		"ui_unit_icon": "skv_lord_skrolk"
+	},
+	{
+		"key": "wh2_main_skv_plague_priest",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_lore_plague",
+		"ui_unit_icon": "skv_plague_priest_campaign_01",
+		"variants": [
+			"skv_plague_priest_campaign_01",
+			"skv_plague_priest_campaign_02",
+			"skv_plague_priest_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_skv_queek_headtaker",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword_grn",
+		"ui_unit_icon": "skv_queek"
+	},
+	{
+		"key": "wh2_main_skv_warlock_engineer",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_lore_ruin",
+		"ui_unit_icon": "skv_warlock_engineer_campaign_01",
+		"variants": [
+			"skv_warlock_engineer_campaign_01",
+			"skv_warlock_engineer_campaign_02",
+			"skv_warlock_engineer_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_main_skv_warlord",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword_grn",
+		"ui_unit_icon": "skv_warlord_campaign_01",
+		"variants": [
+			"skv_warlord_campaign_01",
+			"skv_warlord_campaign_02",
+			"skv_warlord_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_pro07_emp_amethyst_wizard",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "emp_wizard_amethyst_campaign_01",
+		"variants": [
+			"emp_wizard_amethyst_campaign_01",
+			"emp_wizard_amethyst_campaign_02",
+			"emp_wizard_amethyst_campaign_03"
+		]
+	},
+	{
+		"key": "wh2_pro08_neu_felix",
+		"caste": "hero",
+		"ui_group_icon": "wh2_pro08_cha_felix",
+		"ui_unit_icon": "neu_felix"
+	},
+	{
+		"key": "wh2_pro08_neu_gotrek",
+		"caste": "hero",
+		"ui_group_icon": "wh2_pro08_cha_gotrek",
+		"ui_unit_icon": "neu_gotrek"
+	},
+	{
+		"key": "wh2_twa02_wef_glade_captain",
+		"caste": "hero",
+		"ui_group_icon": "wh2_main_hef_missile_infantry_bow_spear",
+		"ui_unit_icon": "wef_glade_captain_campaign_01",
+		"variants": [
+			"wef_glade_captain_campaign_01",
+			"wef_glade_captain_campaign_02",
+			"wef_glade_captain_campaign_03",
+			"wef_glade_captain_campaign_04",
+			"wef_glade_captain_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_twa03_def_rakarth",
+		"caste": "lord",
+		"ui_group_icon": "wh2_dlc14_lord_spear_whip",
+		"ui_unit_icon": "def_rakarth"
+	},
+	{
+		"key": "wh2_twa04_bst_great_bray_shaman_beasts",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "bst_great_bray_shaman_campaign_01",
+		"variants": [
+			"bst_great_bray_shaman_campaign_01",
+			"bst_great_bray_shaman_campaign_02",
+			"bst_great_bray_shaman_campaign_03",
+			"bst_great_bray_shaman_campaign_04",
+			"bst_great_bray_shaman_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_twa04_bst_great_bray_shaman_death",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "bst_great_bray_shaman_campaign_01",
+		"variants": [
+			"bst_great_bray_shaman_campaign_01",
+			"bst_great_bray_shaman_campaign_02",
+			"bst_great_bray_shaman_campaign_03",
+			"bst_great_bray_shaman_campaign_04",
+			"bst_great_bray_shaman_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_twa04_bst_great_bray_shaman_shadows",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "bst_great_bray_shaman_campaign_01",
+		"variants": [
+			"bst_great_bray_shaman_campaign_01",
+			"bst_great_bray_shaman_campaign_02",
+			"bst_great_bray_shaman_campaign_03",
+			"bst_great_bray_shaman_campaign_04",
+			"bst_great_bray_shaman_campaign_05"
+		]
+	},
+	{
+		"key": "wh2_twa04_bst_great_bray_shaman_wild",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_bst_lore_wild",
+		"ui_unit_icon": "bst_great_bray_shaman_campaign_01",
+		"variants": [
+			"bst_great_bray_shaman_campaign_01",
+			"bst_great_bray_shaman_campaign_02",
+			"bst_great_bray_shaman_campaign_03",
+			"bst_great_bray_shaman_campaign_04",
+			"bst_great_bray_shaman_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_daemon_prince_khorne",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dae_daemon_prince",
+		"ui_unit_icon": "dae_kho_daemon_prince_1",
+		"variants": [
+			"dae_kho_daemon_prince_1",
+			"dae_kho_daemon_prince_2",
+			"dae_kho_daemon_prince_3"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_daemon_prince_nurgle",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dae_daemon_prince",
+		"ui_unit_icon": "dae_nur_daemon_prince_1",
+		"variants": [
+			"dae_nur_daemon_prince_1",
+			"dae_nur_daemon_prince_2",
+			"dae_nur_daemon_prince_3"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_daemon_prince_slaanesh",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dae_daemon_prince",
+		"ui_unit_icon": "dae_sla_daemon_prince_1",
+		"variants": [
+			"dae_sla_daemon_prince_1",
+			"dae_sla_daemon_prince_2",
+			"dae_sla_daemon_prince_3"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_daemon_prince_tzeentch",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dae_daemon_prince",
+		"ui_unit_icon": "dae_tze_daemon_prince_1",
+		"variants": [
+			"dae_tze_daemon_prince_1",
+			"dae_tze_daemon_prince_2",
+			"dae_tze_daemon_prince_3"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_daemon_prince_undivided",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dae_daemon_prince",
+		"ui_unit_icon": "dae_chs_daemon_prince_1",
+		"variants": [
+			"dae_chs_daemon_prince_1",
+			"dae_chs_daemon_prince_2",
+			"dae_chs_daemon_prince_3",
+			"dae_kho_daemon_prince_1",
+			"dae_kho_daemon_prince_2",
+			"dae_kho_daemon_prince_3",
+			"dae_nur_daemon_prince_1",
+			"dae_nur_daemon_prince_2",
+			"dae_nur_daemon_prince_3",
+			"dae_sla_daemon_prince_1",
+			"dae_sla_daemon_prince_2",
+			"dae_sla_daemon_prince_3",
+			"dae_tze_daemon_prince_1",
+			"dae_tze_daemon_prince_2",
+			"dae_tze_daemon_prince_3"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_exalted_hero_mkho",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_chs_champion",
+		"ui_unit_icon": "dae_kho_exalted_hero_campaign_01",
+		"variants": [
+			"dae_kho_exalted_hero_campaign_01",
+			"dae_kho_exalted_hero_campaign_02",
+			"dae_kho_exalted_hero_campaign_03",
+			"dae_kho_exalted_hero_campaign_04",
+			"dae_kho_exalted_hero_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_exalted_hero_mnur",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_chs_champion",
+		"ui_unit_icon": "dae_nur_exalted_hero_campaign_01",
+		"variants": [
+			"dae_nur_exalted_hero_campaign_01",
+			"dae_nur_exalted_hero_campaign_02",
+			"dae_nur_exalted_hero_campaign_03",
+			"dae_nur_exalted_hero_campaign_04",
+			"dae_nur_exalted_hero_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_lord_mkho",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_dual",
+		"ui_unit_icon": "dae_kho_chaos_lord_campaign_01",
+		"variants": [
+			"dae_kho_chaos_lord_campaign_01",
+			"dae_kho_chaos_lord_campaign_02",
+			"dae_kho_chaos_lord_campaign_03",
+			"dae_kho_chaos_lord_campaign_04",
+			"dae_kho_chaos_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_lord_msla",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "dae_sla_chaos_lord_campaign_01",
+		"variants": [
+			"dae_sla_chaos_lord_campaign_01",
+			"dae_sla_chaos_lord_campaign_02",
+			"dae_sla_chaos_lord_campaign_03",
+			"dae_sla_chaos_lord_campaign_04",
+			"dae_sla_chaos_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_sorcerer_lord_death_mnur",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "dae_nur_chaos_sorcerer_lord_campaign_01",
+		"variants": [
+			"dae_nur_chaos_sorcerer_lord_campaign_01",
+			"dae_nur_chaos_sorcerer_lord_campaign_02",
+			"dae_nur_chaos_sorcerer_lord_campaign_03",
+			"dae_nur_chaos_sorcerer_lord_campaign_04",
+			"dae_nur_chaos_sorcerer_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_sorcerer_lord_metal_mtze",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "dae_tze_chaos_sorcerer_lord_campaign_01",
+		"variants": [
+			"dae_tze_chaos_sorcerer_lord_campaign_01",
+			"dae_tze_chaos_sorcerer_lord_campaign_02",
+			"dae_tze_chaos_sorcerer_lord_campaign_03",
+			"dae_tze_chaos_sorcerer_lord_campaign_04",
+			"dae_tze_chaos_sorcerer_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_sorcerer_lord_nurgle_mnur",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_nurgle",
+		"ui_unit_icon": "dae_nur_chaos_sorcerer_lord_campaign_01",
+		"variants": [
+			"dae_nur_chaos_sorcerer_lord_campaign_01",
+			"dae_nur_chaos_sorcerer_lord_campaign_02",
+			"dae_nur_chaos_sorcerer_lord_campaign_03",
+			"dae_nur_chaos_sorcerer_lord_campaign_04",
+			"dae_nur_chaos_sorcerer_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_sorcerer_lord_tzeentch_mtze",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "dae_tze_chaos_sorcerer_lord_campaign_01",
+		"variants": [
+			"dae_tze_chaos_sorcerer_lord_campaign_01",
+			"dae_tze_chaos_sorcerer_lord_campaign_02",
+			"dae_tze_chaos_sorcerer_lord_campaign_03",
+			"dae_tze_chaos_sorcerer_lord_campaign_04",
+			"dae_tze_chaos_sorcerer_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_sorcerer_metal_mtze",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "dae_tze_chaos_sorcerer_campaign_01",
+		"variants": [
+			"dae_tze_chaos_sorcerer_campaign_01",
+			"dae_tze_chaos_sorcerer_campaign_02",
+			"dae_tze_chaos_sorcerer_campaign_03",
+			"dae_tze_chaos_sorcerer_campaign_04",
+			"dae_tze_chaos_sorcerer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_sorcerer_shadows_msla",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "dae_sla_chaos_sorcerer_campaign_01",
+		"variants": [
+			"dae_sla_chaos_sorcerer_campaign_01",
+			"dae_sla_chaos_sorcerer_campaign_02",
+			"dae_sla_chaos_sorcerer_campaign_03",
+			"dae_sla_chaos_sorcerer_campaign_04",
+			"dae_sla_chaos_sorcerer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_sorcerer_slaanesh_msla",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_slaanesh",
+		"ui_unit_icon": "dae_sla_chaos_sorcerer_campaign_01",
+		"variants": [
+			"dae_sla_chaos_sorcerer_campaign_01",
+			"dae_sla_chaos_sorcerer_campaign_02",
+			"dae_sla_chaos_sorcerer_campaign_03",
+			"dae_sla_chaos_sorcerer_campaign_04",
+			"dae_sla_chaos_sorcerer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_chs_sorcerer_tzeentch_mtze",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "dae_tze_chaos_sorcerer_campaign_01",
+		"variants": [
+			"dae_tze_chaos_sorcerer_campaign_01",
+			"dae_tze_chaos_sorcerer_campaign_02",
+			"dae_tze_chaos_sorcerer_campaign_03",
+			"dae_tze_chaos_sorcerer_campaign_04",
+			"dae_tze_chaos_sorcerer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc20_kho_valkia",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_kho_bloodthirster",
+		"ui_unit_icon": "dae_valkia"
+	},
+	{
+		"key": "wh3_dlc20_nur_festus",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_nurgle",
+		"ui_unit_icon": "dae_festus"
+	},
+	{
+		"key": "wh3_dlc20_sla_azazel",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_slaanesh",
+		"ui_unit_icon": "dae_azazel"
+	},
+	{
+		"key": "wh3_dlc20_tze_vilitch",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "dae_vilitch"
+	},
+	{
+		"key": "wh3_dlc23_chd_astragoth",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dlc23_lore_hashut",
+		"ui_unit_icon": "chd_astragoth_ironhand"
+	},
+	{
+		"key": "wh3_dlc23_chd_bull_centaur_taurruk",
+		"caste": "hero",
+		"ui_group_icon": "wh3_dlc23_chd_bull_centaur_taurruk",
+		"ui_unit_icon": "chd_bull_centaur_taurruk_campaign_01",
+		"variants": [
+			"chd_bull_centaur_taurruk_campaign_01",
+			"chd_bull_centaur_taurruk_campaign_02",
+			"chd_bull_centaur_taurruk_campaign_03",
+			"chd_bull_centaur_taurruk_campaign_04",
+			"chd_bull_centaur_taurruk_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_daemonsmith_sorcerer_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "chd_daemonsmith_sorcerer_campaign_01",
+		"variants": [
+			"chd_daemonsmith_sorcerer_campaign_01",
+			"chd_daemonsmith_sorcerer_campaign_02",
+			"chd_daemonsmith_sorcerer_campaign_03",
+			"chd_daemonsmith_sorcerer_campaign_04",
+			"chd_daemonsmith_sorcerer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_daemonsmith_sorcerer_fire",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "chd_daemonsmith_sorcerer_campaign_01",
+		"variants": [
+			"chd_daemonsmith_sorcerer_campaign_01",
+			"chd_daemonsmith_sorcerer_campaign_02",
+			"chd_daemonsmith_sorcerer_campaign_03",
+			"chd_daemonsmith_sorcerer_campaign_04",
+			"chd_daemonsmith_sorcerer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_daemonsmith_sorcerer_hashut",
+		"caste": "hero",
+		"ui_group_icon": "wh3_dlc23_lore_hashut",
+		"ui_unit_icon": "chd_daemonsmith_sorcerer_campaign_01",
+		"variants": [
+			"chd_daemonsmith_sorcerer_campaign_01",
+			"chd_daemonsmith_sorcerer_campaign_02",
+			"chd_daemonsmith_sorcerer_campaign_03",
+			"chd_daemonsmith_sorcerer_campaign_04",
+			"chd_daemonsmith_sorcerer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_daemonsmith_sorcerer_metal",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "chd_daemonsmith_sorcerer_campaign_01",
+		"variants": [
+			"chd_daemonsmith_sorcerer_campaign_01",
+			"chd_daemonsmith_sorcerer_campaign_02",
+			"chd_daemonsmith_sorcerer_campaign_03",
+			"chd_daemonsmith_sorcerer_campaign_04",
+			"chd_daemonsmith_sorcerer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_drazhoath",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dlc23_lore_hashut",
+		"ui_unit_icon": "chd_drazhoath_the_ashen"
+	},
+	{
+		"key": "wh3_dlc23_chd_gorduz_backstabber",
+		"caste": "hero",
+		"ui_group_icon": "wh3_dlc23_chd_gorduz_backstabber",
+		"ui_unit_icon": "chd_gorduz_backstabber"
+	},
+	{
+		"key": "wh3_dlc23_chd_infernal_castellan",
+		"caste": "hero",
+		"ui_group_icon": "wh3_dlc23_chd_cha_infernal_castellan",
+		"ui_unit_icon": "chd_infernal_castellan_campaign_01",
+		"variants": [
+			"chd_infernal_castellan_campaign_01",
+			"chd_infernal_castellan_campaign_02",
+			"chd_infernal_castellan_campaign_03",
+			"chd_infernal_castellan_campaign_04",
+			"chd_infernal_castellan_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_overseer",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe",
+		"ui_unit_icon": "chd_overseer_campaign_01",
+		"variants": [
+			"chd_overseer_campaign_01",
+			"chd_overseer_campaign_02",
+			"chd_overseer_campaign_03",
+			"chd_overseer_campaign_04",
+			"chd_overseer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_sorcerer_prophet_death",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "chd_sorcerer_prophet_campaign_01",
+		"variants": [
+			"chd_sorcerer_prophet_campaign_01",
+			"chd_sorcerer_prophet_campaign_02",
+			"chd_sorcerer_prophet_campaign_03",
+			"chd_sorcerer_prophet_campaign_04",
+			"chd_sorcerer_prophet_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_sorcerer_prophet_fire",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "chd_sorcerer_prophet_campaign_01",
+		"variants": [
+			"chd_sorcerer_prophet_campaign_01",
+			"chd_sorcerer_prophet_campaign_02",
+			"chd_sorcerer_prophet_campaign_03",
+			"chd_sorcerer_prophet_campaign_04",
+			"chd_sorcerer_prophet_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_sorcerer_prophet_hashut",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dlc23_lore_hashut",
+		"ui_unit_icon": "chd_sorcerer_prophet_campaign_01",
+		"variants": [
+			"chd_sorcerer_prophet_campaign_01",
+			"chd_sorcerer_prophet_campaign_02",
+			"chd_sorcerer_prophet_campaign_03",
+			"chd_sorcerer_prophet_campaign_04",
+			"chd_sorcerer_prophet_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_sorcerer_prophet_metal",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "chd_sorcerer_prophet_campaign_01",
+		"variants": [
+			"chd_sorcerer_prophet_campaign_01",
+			"chd_sorcerer_prophet_campaign_02",
+			"chd_sorcerer_prophet_campaign_03",
+			"chd_sorcerer_prophet_campaign_04",
+			"chd_sorcerer_prophet_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc23_chd_zhatan",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe",
+		"ui_unit_icon": "chd_zhatan_the_black"
+	},
+	{
+		"key": "wh3_dlc23_neu_ulrika",
+		"caste": "hero",
+		"ui_group_icon": "wh3_dlc23_ksl_ulrika",
+		"ui_unit_icon": "neu_ulrika"
+	},
+	{
+		"key": "wh3_dlc24_chs_exalted_hero_mtze",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_chs_champion",
+		"ui_unit_icon": "dae_tze_exalted_hero_campaign_01",
+		"variants": [
+			"dae_tze_exalted_hero_campaign_01",
+			"dae_tze_exalted_hero_campaign_02",
+			"dae_tze_exalted_hero_campaign_03"
+		]
+	},
+	{
+		"key": "wh3_dlc24_chs_lord_mtze",
+		"caste": "lord",
+		"ui_group_icon": "infantry_spear_halberd",
+		"ui_unit_icon": "dae_tze_chaos_lord_campaign_01",
+		"variants": [
+			"dae_tze_chaos_lord_campaign_01",
+			"dae_tze_chaos_lord_campaign_02",
+			"dae_tze_chaos_lord_campaign_03",
+			"dae_tze_chaos_lord_campaign_04"
+		]
+	},
+	{
+		"key": "wh3_dlc24_cth_celestial_general_yang",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dlc24_cth_cha_celestial_general",
+		"ui_unit_icon": "cth_celestial_general_campaign_03",
+		"variants": [
+			"cth_celestial_general_campaign_03",
+			"cth_celestial_general_campaign_04",
+			"cth_celestial_general_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc24_cth_celestial_general_yin",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dlc24_cth_cha_celestial_general",
+		"ui_unit_icon": "cth_celestial_general_campaign_03",
+		"variants": [
+			"cth_celestial_general_campaign_03",
+			"cth_celestial_general_campaign_04",
+			"cth_celestial_general_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc24_cth_gate_master",
+		"caste": "hero",
+		"ui_group_icon": "wh3_dlc24_cth_gate_master",
+		"ui_unit_icon": "cth_gate_master_campaign_01",
+		"variants": [
+			"cth_gate_master_campaign_01",
+			"cth_gate_master_campaign_02",
+			"cth_gate_master_campaign_03"
+		]
+	},
+	{
+		"key": "wh3_dlc24_cth_saytang_the_watcher",
+		"caste": "hero",
+		"ui_group_icon": "wh3_dlc24_cth_saytang",
+		"ui_unit_icon": "cth_saytang_the_watcher"
+	},
+	{
+		"key": "wh3_dlc24_cth_yuan_bo",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_cth_yin",
+		"ui_unit_icon": "cth_jade_dragon_human"
+	},
+	{
+		"key": "wh3_dlc24_grn_grimgor_ironhide_quest_battle",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_great_grn",
+		"ui_unit_icon": "grn_ch_grimgor"
+	},
+	{
+		"key": "wh3_dlc24_ksl_druzhina",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_great",
+		"ui_unit_icon": "ksl_druzhina_campaign_01",
+		"variants": [
+			"ksl_druzhina_campaign_01",
+			"ksl_druzhina_campaign_02",
+			"ksl_druzhina_campaign_03"
+		]
+	},
+	{
+		"key": "wh3_dlc24_ksl_hag_witch_beasts",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "ksl_hag_witch_campaign_01",
+		"variants": [
+			"ksl_hag_witch_campaign_01",
+			"ksl_hag_witch_campaign_02",
+			"ksl_hag_witch_campaign_03",
+			"ksl_hag_witch_campaign_04",
+			"ksl_hag_witch_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc24_ksl_hag_witch_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "ksl_hag_witch_campaign_01",
+		"variants": [
+			"ksl_hag_witch_campaign_01",
+			"ksl_hag_witch_campaign_02",
+			"ksl_hag_witch_campaign_03",
+			"ksl_hag_witch_campaign_04",
+			"ksl_hag_witch_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc24_ksl_hag_witch_hag",
+		"caste": "hero",
+		"ui_group_icon": "wh3_dlc24_lore_hag",
+		"ui_unit_icon": "ksl_hag_witch_campaign_01",
+		"variants": [
+			"ksl_hag_witch_campaign_01",
+			"ksl_hag_witch_campaign_02",
+			"ksl_hag_witch_campaign_03",
+			"ksl_hag_witch_campaign_04",
+			"ksl_hag_witch_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc24_ksl_hag_witch_shadows",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "ksl_hag_witch_campaign_01",
+		"variants": [
+			"ksl_hag_witch_campaign_01",
+			"ksl_hag_witch_campaign_02",
+			"ksl_hag_witch_campaign_03",
+			"ksl_hag_witch_campaign_04",
+			"ksl_hag_witch_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc24_ksl_mother_ostankya",
+		"caste": "lord",
+		"ui_group_icon": "magic_chariot",
+		"ui_unit_icon": "ksl_ostankya"
+	},
+	{
+		"key": "wh3_dlc24_ksl_the_golden_knight",
+		"caste": "hero",
+		"ui_group_icon": "ksl_hero_golden_knight",
+		"ui_unit_icon": "ksl_golden_knight"
+	},
+	{
+		"key": "wh3_dlc24_tze_aekold_helbrass",
+		"caste": "hero",
+		"ui_group_icon": "tze_hero_aekold_helbrass",
+		"ui_unit_icon": "chs_ch_aekold"
+	},
+	{
+		"key": "wh3_dlc24_tze_blue_scribes",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "dae_blue_scribes"
+	},
+	{
+		"key": "wh3_dlc24_tze_exalted_lord_of_change_metal_locked_army",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "dae_exalted_lord_of_change_campaign_01",
+		"variants": [
+			"dae_exalted_lord_of_change_campaign_01",
+			"dae_exalted_lord_of_change_campaign_02",
+			"dae_exalted_lord_of_change_campaign_03",
+			"dae_exalted_lord_of_change_campaign_04",
+			"dae_exalted_lord_of_change_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc24_tze_exalted_lord_of_change_tzeentch_locked_army",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "dae_exalted_lord_of_change_campaign_01",
+		"variants": [
+			"dae_exalted_lord_of_change_campaign_01",
+			"dae_exalted_lord_of_change_campaign_02",
+			"dae_exalted_lord_of_change_campaign_03",
+			"dae_exalted_lord_of_change_campaign_04",
+			"dae_exalted_lord_of_change_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc24_tze_the_changeling",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "dae_changeling"
+	},
+	{
+		"key": "wh3_dlc25_chs_lord_mnur",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "dae_nur_chaos_lord_campaign_01",
+		"variants": [
+			"dae_nur_chaos_lord_campaign_01",
+			"dae_nur_chaos_lord_campaign_02",
+			"dae_nur_chaos_lord_campaign_03",
+			"dae_nur_chaos_lord_campaign_04",
+			"dae_nur_chaos_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc25_chs_sorcerer_death_mnur",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "dae_nur_chaos_sorcerer_campaign_01",
+		"variants": [
+			"dae_nur_chaos_sorcerer_campaign_01",
+			"dae_nur_chaos_sorcerer_campaign_02",
+			"dae_nur_chaos_sorcerer_campaign_03",
+			"dae_nur_chaos_sorcerer_campaign_04",
+			"dae_nur_chaos_sorcerer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc25_chs_sorcerer_nurgle_mnur",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_nurgle",
+		"ui_unit_icon": "dae_nur_chaos_sorcerer_campaign_01",
+		"variants": [
+			"dae_nur_chaos_sorcerer_campaign_01",
+			"dae_nur_chaos_sorcerer_campaign_02",
+			"dae_nur_chaos_sorcerer_campaign_03",
+			"dae_nur_chaos_sorcerer_campaign_04",
+			"dae_nur_chaos_sorcerer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc25_dwf_daemon_slayer",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_dual",
+		"ui_unit_icon": "dwf_daemon_slayer_campaign_01",
+		"variants": [
+			"dwf_daemon_slayer_campaign_01",
+			"dwf_daemon_slayer_campaign_02",
+			"dwf_daemon_slayer_campaign_03",
+			"dwf_daemon_slayer_campaign_04",
+			"dwf_daemon_slayer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc25_dwf_dragon_slayer",
+		"caste": "hero",
+		"ui_group_icon": "dwf_dragon_slayer",
+		"ui_unit_icon": "dwf_dragon_slayer_campaign_01",
+		"variants": [
+			"dwf_dragon_slayer_campaign_01",
+			"dwf_dragon_slayer_campaign_02",
+			"dwf_dragon_slayer_campaign_03",
+			"dwf_dragon_slayer_campaign_04",
+			"dwf_dragon_slayer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc25_dwf_garagrim_ironfist",
+		"caste": "hero",
+		"ui_group_icon": "dwf_garagrim_ironfist",
+		"ui_unit_icon": "dwf_garagrim_ironfist"
+	},
+	{
+		"key": "wh3_dlc25_dwf_lord_mikael_leadstrong",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe",
+		"ui_unit_icon": "dwf_lord_campaign_01",
+		"variants": [
+			"dwf_lord_campaign_01",
+			"dwf_lord_campaign_02",
+			"dwf_lord_campaign_03",
+			"dwf_lord_campaign_04",
+			"dwf_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc25_dwf_malakai_makaisson",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_dwf_master_engineer",
+		"ui_unit_icon": "dwf_malakai_makaisson"
+	},
+	{
+		"key": "wh3_dlc25_emp_elspeth_von_draken",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "emp_elspeth_von_draken"
+	},
+	{
+		"key": "wh3_dlc25_emp_engineer",
+		"caste": "hero",
+		"ui_group_icon": "emp_master_engineer",
+		"ui_unit_icon": "emp_engineer_campaign_01",
+		"variants": [
+			"emp_engineer_campaign_01",
+			"emp_engineer_campaign_02",
+			"emp_engineer_campaign_03",
+			"emp_engineer_campaign_04",
+			"emp_engineer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc25_emp_gold_wizard",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "emp_wizard_metal_campaign_01",
+		"variants": [
+			"emp_wizard_metal_campaign_01",
+			"emp_wizard_metal_campaign_02",
+			"emp_wizard_metal_campaign_03",
+			"emp_wizard_metal_campaign_04",
+			"emp_wizard_metal_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc25_emp_master_engineer",
+		"caste": "lord",
+		"ui_group_icon": "emp_master_engineer",
+		"ui_unit_icon": "emp_master_engineer_campaign_01",
+		"variants": [
+			"emp_master_engineer_campaign_01",
+			"emp_master_engineer_campaign_02",
+			"emp_master_engineer_campaign_03",
+			"emp_master_engineer_campaign_04",
+			"emp_master_engineer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_dlc25_emp_theodore_bruckner",
+		"caste": "hero",
+		"ui_group_icon": "emp_theodore_bruckner",
+		"ui_unit_icon": "emp_theodore_bruckner"
+	},
+	{
+		"key": "wh3_dlc25_neu_gotrek_hero",
+		"caste": "hero",
+		"ui_group_icon": "wh2_pro08_cha_gotrek",
+		"ui_unit_icon": "neu_gotrek"
+	},
+	{
+		"key": "wh3_dlc25_nur_bray_shaman_wild_chieftain",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_bst_lore_wild",
+		"ui_unit_icon": "dae_nur_bst_bray_shaman_chieftain"
+	},
+	{
+		"key": "wh3_dlc25_nur_castellan_chieftain",
+		"caste": "hero",
+		"ui_group_icon": "wh3_dlc23_chd_cha_infernal_castellan",
+		"ui_unit_icon": "dae_nur_chd_infernal_castellan_chieftain"
+	},
+	{
+		"key": "wh3_dlc25_nur_epidemius",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dlc25_nur_cha_epidemius",
+		"ui_unit_icon": "dae_epidemius"
+	},
+	{
+		"key": "wh3_dlc25_nur_exalted_hero_chieftain",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_chs_champion",
+		"ui_unit_icon": "dae_nur_chs_exalted_hero_chieftain"
+	},
+	{
+		"key": "wh3_dlc25_nur_fimir_balefiend_shadow_chieftain",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "dae_nur_nor_fimir_balefiend_chieftain"
+	},
+	{
+		"key": "wh3_dlc25_nur_kayzk_the_befouled",
+		"caste": "hero",
+		"ui_group_icon": "wh3_dlc25_nur_cha_kayzk_the_befouled",
+		"ui_unit_icon": "dae_nur_kayzk_the_befouled",
+		"variants": [
+			"dae_nur_kayzk_the_befouled"
+		]
+	},
+	{
+		"key": "wh3_dlc25_nur_skin_wolf_werekin_chieftain",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc08_nor_skin_wolf_werekin",
+		"ui_unit_icon": "dae_nur_nor_skin_wolf_werekin_chieftain"
+	},
+	{
+		"key": "wh3_dlc25_nur_tamurkhan",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_great",
+		"ui_unit_icon": "dae_tamurkhan"
+	},
+	{
+		"key": "wh3_main_cth_alchemist",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "cth_alchemist_campaign_01",
+		"variants": [
+			"cth_alchemist_campaign_01",
+			"cth_alchemist_campaign_02",
+			"cth_alchemist_campaign_03",
+			"cth_alchemist_campaign_04",
+			"cth_alchemist_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_cth_astromancer",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_heavens",
+		"ui_unit_icon": "cth_astromancer_campaign_01",
+		"variants": [
+			"cth_astromancer_campaign_01",
+			"cth_astromancer_campaign_02",
+			"cth_astromancer_campaign_03",
+			"cth_astromancer_campaign_04",
+			"cth_astromancer_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_cth_dragon_blooded_shugengan_yang",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_cth_yang",
+		"ui_unit_icon": "cth_shugengan_lord_campaign_01",
+		"variants": [
+			"cth_shugengan_lord_campaign_01",
+			"cth_shugengan_lord_campaign_02",
+			"cth_shugengan_lord_campaign_03",
+			"cth_shugengan_lord_campaign_04",
+			"cth_shugengan_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_cth_dragon_blooded_shugengan_yin",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_cth_yin",
+		"ui_unit_icon": "cth_shugengan_lord_campaign_01",
+		"variants": [
+			"cth_shugengan_lord_campaign_01",
+			"cth_shugengan_lord_campaign_02",
+			"cth_shugengan_lord_campaign_03",
+			"cth_shugengan_lord_campaign_04",
+			"cth_shugengan_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_cth_lord_magistrate_yang",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "cth_lord_magistrate_campaign_01",
+		"variants": [
+			"cth_lord_magistrate_campaign_01",
+			"cth_lord_magistrate_campaign_02",
+			"cth_lord_magistrate_campaign_03",
+			"cth_lord_magistrate_campaign_04",
+			"cth_lord_magistrate_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_cth_lord_magistrate_yin",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "cth_lord_magistrate_campaign_01",
+		"variants": [
+			"cth_lord_magistrate_campaign_01",
+			"cth_lord_magistrate_campaign_02",
+			"cth_lord_magistrate_campaign_03",
+			"cth_lord_magistrate_campaign_04",
+			"cth_lord_magistrate_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_cth_miao_ying",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "cth_storm_dragon_human"
+	},
+	{
+		"key": "wh3_main_cth_zhao_ming",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "cth_iron_dragon_human"
+	},
+	{
+		"key": "wh3_main_dae_belakor",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dae_daemon_prince",
+		"ui_unit_icon": "dae_belakor"
+	},
+	{
+		"key": "wh3_main_dae_daemon_prince",
+		"caste": "lord",
+		"ui_group_icon": "wh3_dae_daemon_prince",
+		"ui_unit_icon": "dae_prince"
+	},
+	{
+		"key": "wh3_main_ie_nor_burplesmirk_spewpit",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_nurgle",
+		"ui_unit_icon": "dae_exalted_great_unclean_one_burplesmirk"
+	},
+	{
+		"key": "wh3_main_ie_nor_killgore_slaymaim",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_chs_champion",
+		"ui_unit_icon": "dae_kho_chaos_lord_killmaim"
+	},
+	{
+		"key": "wh3_main_kho_bloodreaper",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_kho_bloodreaper",
+		"ui_unit_icon": "dae_bloodreaper_campaign_01",
+		"variants": [
+			"dae_bloodreaper_campaign_01",
+			"dae_bloodreaper_campaign_02",
+			"dae_bloodreaper_campaign_03",
+			"dae_bloodreaper_campaign_04",
+			"dae_bloodreaper_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_kho_cultist",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_kho_cultist",
+		"ui_unit_icon": "dae_cultist_of_khorne_campaign_01",
+		"variants": [
+			"dae_cultist_of_khorne_campaign_01",
+			"dae_cultist_of_khorne_campaign_02",
+			"dae_cultist_of_khorne_campaign_03",
+			"dae_cultist_of_khorne_campaign_04",
+			"dae_cultist_of_khorne_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_kho_exalted_bloodthirster",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_kho_bloodthirster",
+		"ui_unit_icon": "dae_bloodthirster_exalted_campaign_01",
+		"variants": [
+			"dae_bloodthirster_exalted_campaign_01",
+			"dae_bloodthirster_exalted_campaign_02",
+			"dae_bloodthirster_exalted_campaign_03",
+			"dae_bloodthirster_exalted_campaign_04",
+			"dae_bloodthirster_exalted_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_kho_herald_of_khorne",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_kho_bloodreaper",
+		"ui_unit_icon": "dae_herald_of_khorne_campaign_01",
+		"variants": [
+			"dae_herald_of_khorne_campaign_01",
+			"dae_herald_of_khorne_campaign_02",
+			"dae_herald_of_khorne_campaign_03",
+			"dae_herald_of_khorne_campaign_04",
+			"dae_herald_of_khorne_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_kho_skarbrand",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_kho_skarbrand",
+		"ui_unit_icon": "dae_skarbrand",
+		"variants": [
+			"dae_skarbrand"
+		]
+	},
+	{
+		"key": "wh3_main_ksl_ataman",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe",
+		"ui_unit_icon": "ksl_boyar_campaign_01",
+		"variants": [
+			"ksl_boyar_campaign_01",
+			"ksl_boyar_campaign_02",
+			"ksl_boyar_campaign_03",
+			"ksl_boyar_campaign_04",
+			"ksl_boyar_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ksl_boris",
+		"caste": "lord",
+		"ui_group_icon": "infantry_spear_halberd",
+		"ui_unit_icon": "ksl_cha_boris_campaign",
+		"variants": [
+			"ksl_cha_boris_campaign"
+		]
+	},
+	{
+		"key": "wh3_main_ksl_boyar",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe",
+		"ui_unit_icon": "ksl_boyar_campaign_01",
+		"variants": [
+			"ksl_boyar_campaign_01",
+			"ksl_boyar_campaign_02",
+			"ksl_boyar_campaign_03",
+			"ksl_boyar_campaign_04",
+			"ksl_boyar_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ksl_frost_maiden_ice",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_ice",
+		"ui_unit_icon": "ksl_frost_maiden_campaign_01",
+		"variants": [
+			"ksl_frost_maiden_campaign_01",
+			"ksl_frost_maiden_campaign_02",
+			"ksl_frost_maiden_campaign_03",
+			"ksl_frost_maiden_campaign_04",
+			"ksl_frost_maiden_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ksl_frost_maiden_tempest",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_tempest",
+		"ui_unit_icon": "ksl_frost_maiden_campaign_01",
+		"variants": [
+			"ksl_frost_maiden_campaign_01",
+			"ksl_frost_maiden_campaign_02",
+			"ksl_frost_maiden_campaign_03",
+			"ksl_frost_maiden_campaign_04",
+			"ksl_frost_maiden_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ksl_ice_witch_ice",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_ice",
+		"ui_unit_icon": "ksl_ice_witch_campaign_01",
+		"variants": [
+			"ksl_ice_witch_campaign_01",
+			"ksl_ice_witch_campaign_02",
+			"ksl_ice_witch_campaign_03",
+			"ksl_ice_witch_campaign_04",
+			"ksl_ice_witch_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ksl_ice_witch_tempest",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_tempest",
+		"ui_unit_icon": "ksl_ice_witch_campaign_01",
+		"variants": [
+			"ksl_ice_witch_campaign_01",
+			"ksl_ice_witch_campaign_02",
+			"ksl_ice_witch_campaign_03",
+			"ksl_ice_witch_campaign_04",
+			"ksl_ice_witch_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ksl_katarin",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_ice",
+		"ui_unit_icon": "ksl_katarin"
+	},
+	{
+		"key": "wh3_main_ksl_kostaltyn",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_ksl_patriarch",
+		"ui_unit_icon": "ksl_kostaltyn"
+	},
+	{
+		"key": "wh3_main_ksl_patriarch",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_ksl_patriarch",
+		"ui_unit_icon": "ksl_patriarch_campaign_01",
+		"variants": [
+			"ksl_patriarch_campaign_01",
+			"ksl_patriarch_campaign_02",
+			"ksl_patriarch_campaign_03",
+			"ksl_patriarch_campaign_04",
+			"ksl_patriarch_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_nur_cultist",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_nur_cultist",
+		"ui_unit_icon": "dae_cultist_of_nurgle_campaign_01",
+		"variants": [
+			"dae_cultist_of_nurgle_campaign_01",
+			"dae_cultist_of_nurgle_campaign_02",
+			"dae_cultist_of_nurgle_campaign_03",
+			"dae_cultist_of_nurgle_campaign_04",
+			"dae_cultist_of_nurgle_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_nur_exalted_great_unclean_one_death",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "dae_exalted_great_unclean_one_campaign_01",
+		"variants": [
+			"dae_exalted_great_unclean_one_campaign_01",
+			"dae_exalted_great_unclean_one_campaign_02",
+			"dae_exalted_great_unclean_one_campaign_03",
+			"dae_exalted_great_unclean_one_campaign_04",
+			"dae_exalted_great_unclean_one_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_nur_exalted_great_unclean_one_nurgle",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_nurgle",
+		"ui_unit_icon": "dae_exalted_great_unclean_one_campaign_01",
+		"variants": [
+			"dae_exalted_great_unclean_one_campaign_01",
+			"dae_exalted_great_unclean_one_campaign_02",
+			"dae_exalted_great_unclean_one_campaign_03",
+			"dae_exalted_great_unclean_one_campaign_04",
+			"dae_exalted_great_unclean_one_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_nur_herald_of_nurgle_death",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "dae_plaguebearer_herald_campaign_01",
+		"variants": [
+			"dae_plaguebearer_herald_campaign_01",
+			"dae_plaguebearer_herald_campaign_02",
+			"dae_plaguebearer_herald_campaign_03",
+			"dae_plaguebearer_herald_campaign_04",
+			"dae_plaguebearer_herald_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_nur_herald_of_nurgle_nurgle",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_nurgle",
+		"ui_unit_icon": "dae_plaguebearer_herald_campaign_01",
+		"variants": [
+			"dae_plaguebearer_herald_campaign_01",
+			"dae_plaguebearer_herald_campaign_02",
+			"dae_plaguebearer_herald_campaign_03",
+			"dae_plaguebearer_herald_campaign_04",
+			"dae_plaguebearer_herald_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_nur_kugath",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_nurgle",
+		"ui_unit_icon": "dae_kugath",
+		"variants": [
+			"dae_kugath"
+		]
+	},
+	{
+		"key": "wh3_main_nur_plagueridden_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "dae_plaguebearer_plagueridden_campaign_01",
+		"variants": [
+			"dae_plaguebearer_plagueridden_campaign_01",
+			"dae_plaguebearer_plagueridden_campaign_02",
+			"dae_plaguebearer_plagueridden_campaign_03",
+			"dae_plaguebearer_plagueridden_campaign_04",
+			"dae_plaguebearer_plagueridden_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_nur_plagueridden_nurgle",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_nurgle",
+		"ui_unit_icon": "dae_plaguebearer_plagueridden_campaign_01",
+		"variants": [
+			"dae_plaguebearer_plagueridden_campaign_01",
+			"dae_plaguebearer_plagueridden_campaign_02",
+			"dae_plaguebearer_plagueridden_campaign_03",
+			"dae_plaguebearer_plagueridden_campaign_04",
+			"dae_plaguebearer_plagueridden_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ogr_butcher_beasts",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "ogr_butcher_campaign_01",
+		"variants": [
+			"ogr_butcher_campaign_01",
+			"ogr_butcher_campaign_02",
+			"ogr_butcher_campaign_03"
+		]
+	},
+	{
+		"key": "wh3_main_ogr_butcher_great_maw",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_the_great_maw",
+		"ui_unit_icon": "ogr_butcher_campaign_01",
+		"variants": [
+			"ogr_butcher_campaign_01",
+			"ogr_butcher_campaign_02",
+			"ogr_butcher_campaign_03"
+		]
+	},
+	{
+		"key": "wh3_main_ogr_firebelly",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "ogr_firebelly_campaign_01",
+		"variants": [
+			"ogr_firebelly_campaign_01",
+			"ogr_firebelly_campaign_02",
+			"ogr_firebelly_campaign_03",
+			"ogr_firebelly_campaign_04",
+			"ogr_firebelly_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ogr_greasus_goldtooth",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_great",
+		"ui_unit_icon": "ogr_greasus",
+		"variants": [
+			"ogr_greasus"
+		]
+	},
+	{
+		"key": "wh3_main_ogr_hunter",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_ogr_hunter",
+		"ui_unit_icon": "ogr_hunter_campaign_01",
+		"variants": [
+			"ogr_hunter_campaign_01",
+			"ogr_hunter_campaign_02",
+			"ogr_hunter_campaign_03",
+			"ogr_hunter_campaign_04",
+			"ogr_hunter_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ogr_skrag_the_slaughterer",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_the_great_maw",
+		"ui_unit_icon": "ogr_skrag"
+	},
+	{
+		"key": "wh3_main_ogr_slaughtermaster_beasts",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "ogr_slaughtermaster_campaign_01",
+		"variants": [
+			"ogr_slaughtermaster_campaign_01",
+			"ogr_slaughtermaster_campaign_02",
+			"ogr_slaughtermaster_campaign_03",
+			"ogr_slaughtermaster_campaign_04",
+			"ogr_slaughtermaster_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ogr_slaughtermaster_great_maw",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_the_great_maw",
+		"ui_unit_icon": "ogr_slaughtermaster_campaign_01",
+		"variants": [
+			"ogr_slaughtermaster_campaign_01",
+			"ogr_slaughtermaster_campaign_02",
+			"ogr_slaughtermaster_campaign_03",
+			"ogr_slaughtermaster_campaign_04",
+			"ogr_slaughtermaster_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ogr_tyrant",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "ogr_tyrant_campaign_01",
+		"variants": [
+			"ogr_tyrant_campaign_01",
+			"ogr_tyrant_campaign_02",
+			"ogr_tyrant_campaign_03",
+			"ogr_tyrant_campaign_04",
+			"ogr_tyrant_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_ogr_tyrant_camp",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "ogr_tyrant_campaign_01",
+		"variants": [
+			"ogr_tyrant_campaign_01",
+			"ogr_tyrant_campaign_02",
+			"ogr_tyrant_campaign_03",
+			"ogr_tyrant_campaign_04",
+			"ogr_tyrant_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_sla_alluress_shadow",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "dae_daemonette_alluress_campaign_01",
+		"variants": [
+			"dae_daemonette_alluress_campaign_01",
+			"dae_daemonette_alluress_campaign_02",
+			"dae_daemonette_alluress_campaign_03",
+			"dae_daemonette_alluress_campaign_04",
+			"dae_daemonette_alluress_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_sla_alluress_slaanesh",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_slaanesh",
+		"ui_unit_icon": "dae_daemonette_alluress_campaign_01",
+		"variants": [
+			"dae_daemonette_alluress_campaign_01",
+			"dae_daemonette_alluress_campaign_02",
+			"dae_daemonette_alluress_campaign_03",
+			"dae_daemonette_alluress_campaign_04",
+			"dae_daemonette_alluress_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_sla_cultist",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_sla_cultist",
+		"ui_unit_icon": "dae_cultist_of_slaanesh_campaign_01",
+		"variants": [
+			"dae_cultist_of_slaanesh_campaign_01",
+			"dae_cultist_of_slaanesh_campaign_02",
+			"dae_cultist_of_slaanesh_campaign_03",
+			"dae_cultist_of_slaanesh_campaign_04",
+			"dae_cultist_of_slaanesh_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_sla_exalted_keeper_of_secrets_shadow",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "dae_keeper_of_secret_exalted_campaign_01",
+		"variants": [
+			"dae_keeper_of_secret_exalted_campaign_01",
+			"dae_keeper_of_secret_exalted_campaign_02",
+			"dae_keeper_of_secret_exalted_campaign_03",
+			"dae_keeper_of_secret_exalted_campaign_04",
+			"dae_keeper_of_secret_exalted_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_sla_exalted_keeper_of_secrets_slaanesh",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_slaanesh",
+		"ui_unit_icon": "dae_keeper_of_secret_exalted_campaign_01",
+		"variants": [
+			"dae_keeper_of_secret_exalted_campaign_01",
+			"dae_keeper_of_secret_exalted_campaign_02",
+			"dae_keeper_of_secret_exalted_campaign_03",
+			"dae_keeper_of_secret_exalted_campaign_04",
+			"dae_keeper_of_secret_exalted_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_sla_herald_of_slaanesh_shadow",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "dae_daemonette_herald_campaign_01",
+		"variants": [
+			"dae_daemonette_herald_campaign_01",
+			"dae_daemonette_herald_campaign_02",
+			"dae_daemonette_herald_campaign_03",
+			"dae_daemonette_herald_campaign_04",
+			"dae_daemonette_herald_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_sla_herald_of_slaanesh_slaanesh",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_slaanesh",
+		"ui_unit_icon": "dae_daemonette_herald_campaign_01",
+		"variants": [
+			"dae_daemonette_herald_campaign_01",
+			"dae_daemonette_herald_campaign_02",
+			"dae_daemonette_herald_campaign_03",
+			"dae_daemonette_herald_campaign_04",
+			"dae_daemonette_herald_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_sla_herald_of_slaanesh_slaanesh_disciple_army",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_slaanesh",
+		"ui_unit_icon": "dae_daemonette_herald_campaign_01",
+		"variants": [
+			"dae_daemonette_herald_campaign_01",
+			"dae_daemonette_herald_campaign_02",
+			"dae_daemonette_herald_campaign_03",
+			"dae_daemonette_herald_campaign_04",
+			"dae_daemonette_herald_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_sla_nkari",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_slaanesh",
+		"ui_unit_icon": "dae_nkari"
+	},
+	{
+		"key": "wh3_main_tze_cultist",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_tze_cultist",
+		"ui_unit_icon": "dae_cultist_of_tzeentch_campaign_01",
+		"variants": [
+			"dae_cultist_of_tzeentch_campaign_01",
+			"dae_cultist_of_tzeentch_campaign_02",
+			"dae_cultist_of_tzeentch_campaign_03",
+			"dae_cultist_of_tzeentch_campaign_04",
+			"dae_cultist_of_tzeentch_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_tze_exalted_lord_of_change_metal",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "dae_exalted_lord_of_change_campaign_01",
+		"variants": [
+			"dae_exalted_lord_of_change_campaign_01",
+			"dae_exalted_lord_of_change_campaign_02",
+			"dae_exalted_lord_of_change_campaign_03",
+			"dae_exalted_lord_of_change_campaign_04",
+			"dae_exalted_lord_of_change_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_tze_exalted_lord_of_change_tzeentch",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "dae_exalted_lord_of_change_campaign_01",
+		"variants": [
+			"dae_exalted_lord_of_change_campaign_01",
+			"dae_exalted_lord_of_change_campaign_02",
+			"dae_exalted_lord_of_change_campaign_03",
+			"dae_exalted_lord_of_change_campaign_04",
+			"dae_exalted_lord_of_change_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_tze_herald_of_tzeentch_metal",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "dae_horror_herald_campaign_01",
+		"variants": [
+			"dae_horror_herald_campaign_01",
+			"dae_horror_herald_campaign_02",
+			"dae_horror_herald_campaign_03",
+			"dae_horror_herald_campaign_04",
+			"dae_horror_herald_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_tze_herald_of_tzeentch_tzeentch",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "dae_horror_herald_campaign_01",
+		"variants": [
+			"dae_horror_herald_campaign_01",
+			"dae_horror_herald_campaign_02",
+			"dae_horror_herald_campaign_03",
+			"dae_horror_herald_campaign_04",
+			"dae_horror_herald_campaign_05"
+		]
+	},
+	{
+		"key": "wh3_main_tze_iridescent_horror_metal",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "dae_horror_irridescent_campaign_01",
+		"variants": [
+			"dae_horror_irridescent_campaign_01",
+			"dae_horror_irridescent_campaign_02",
+			"dae_horror_irridescent_campaign_03",
+			"dae_horror_irridescent_campaign_04"
+		]
+	},
+	{
+		"key": "wh3_main_tze_iridescent_horror_tzeentch",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "dae_horror_irridescent_campaign_01",
+		"variants": [
+			"dae_horror_irridescent_campaign_01",
+			"dae_horror_irridescent_campaign_02",
+			"dae_horror_irridescent_campaign_03",
+			"dae_horror_irridescent_campaign_04"
+		]
+	},
+	{
+		"key": "wh3_main_tze_kairos",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "dae_kairos",
+		"variants": [
+			"dae_kairos"
+		]
+	},
+	{
+		"key": "wh3_pro11_chs_cha_harald_hammerstorm",
+		"caste": "hero",
+		"ui_group_icon": "wh3_pro11_chs_harald_hammerstorm",
+		"ui_unit_icon": "dae_chs_harald_hammerstorm"
+	},
+	{
+		"key": "wh3_pro12_kho_cha_karanak",
+		"caste": "hero",
+		"ui_group_icon": "kho_hero_karanak",
+		"ui_unit_icon": "dae_karanak"
+	},
+	{
+		"key": "wh_dlc01_chs_kholek_suneater",
+		"caste": "lord",
+		"ui_group_icon": "chs_shaggoth",
+		"ui_unit_icon": "chs_kholek_suneater"
+	},
+	{
+		"key": "wh_dlc01_chs_prince_sigvald",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "chs_ch_sigvald"
+	},
+	{
+		"key": "wh_dlc01_chs_sorcerer_lord_death",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "chs_sorcerer_lord_campaign_01",
+		"variants": [
+			"chs_sorcerer_lord_campaign_01",
+			"chs_sorcerer_lord_campaign_02",
+			"chs_sorcerer_lord_campaign_03",
+			"chs_sorcerer_lord_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc01_chs_sorcerer_lord_fire",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "chs_sorcerer_lord_campaign_01",
+		"variants": [
+			"chs_sorcerer_lord_campaign_01",
+			"chs_sorcerer_lord_campaign_02",
+			"chs_sorcerer_lord_campaign_03",
+			"chs_sorcerer_lord_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc01_chs_sorcerer_lord_metal",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "chs_sorcerer_lord_campaign_01",
+		"variants": [
+			"chs_sorcerer_lord_campaign_01",
+			"chs_sorcerer_lord_campaign_02",
+			"chs_sorcerer_lord_campaign_03",
+			"chs_sorcerer_lord_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc01_nor_sorcerer_lord_metal",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "nor_chaos_sorcerer_lord"
+	},
+	{
+		"key": "wh_dlc03_bst_beastlord",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe",
+		"ui_unit_icon": "bst_beastlords_campaign_01",
+		"variants": [
+			"bst_beastlords_campaign_01",
+			"bst_beastlords_campaign_02",
+			"bst_beastlords_campaign_03",
+			"bst_beastlords_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc03_bst_bray_shaman_beasts",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "bst_bray_shaman_campaign_01",
+		"variants": [
+			"bst_bray_shaman_campaign_01",
+			"bst_bray_shaman_campaign_02",
+			"bst_bray_shaman_campaign_03",
+			"bst_bray_shaman_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc03_bst_bray_shaman_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "bst_bray_shaman_campaign_01",
+		"variants": [
+			"bst_bray_shaman_campaign_01",
+			"bst_bray_shaman_campaign_02",
+			"bst_bray_shaman_campaign_03",
+			"bst_bray_shaman_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc03_bst_bray_shaman_shadows",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "bst_bray_shaman_campaign_01",
+		"variants": [
+			"bst_bray_shaman_campaign_01",
+			"bst_bray_shaman_campaign_02",
+			"bst_bray_shaman_campaign_03",
+			"bst_bray_shaman_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc03_bst_bray_shaman_wild",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_bst_lore_wild",
+		"ui_unit_icon": "bst_bray_shaman_campaign_01",
+		"variants": [
+			"bst_bray_shaman_campaign_01",
+			"bst_bray_shaman_campaign_02",
+			"bst_bray_shaman_campaign_03",
+			"bst_bray_shaman_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc03_bst_gorebull",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_bst_gorebull",
+		"ui_unit_icon": "bst_gorebulls_campaign_01",
+		"variants": [
+			"bst_gorebulls_campaign_01",
+			"bst_gorebulls_campaign_02",
+			"bst_gorebulls_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc03_bst_khazrak",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword_grn",
+		"ui_unit_icon": "bst_ch_khazrak"
+	},
+	{
+		"key": "wh_dlc03_bst_malagor",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_bst_lore_wild",
+		"ui_unit_icon": "bst_ch_malagor"
+	},
+	{
+		"key": "wh_dlc03_emp_amber_wizard",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "emp_wizard_beasts_campaign_01",
+		"variants": [
+			"emp_wizard_beasts_campaign_01",
+			"emp_wizard_beasts_campaign_02"
+		]
+	},
+	{
+		"key": "wh_dlc03_emp_boris_todbringer",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "emp_ch_boris_todbringer"
+	},
+	{
+		"key": "wh_dlc04_emp_arch_lector",
+		"caste": "lord",
+		"ui_group_icon": "infantry_hammer_great",
+		"ui_unit_icon": "emp_arch_lector_campaign_01",
+		"variants": [
+			"emp_arch_lector_campaign_01",
+			"emp_arch_lector_campaign_02",
+			"emp_arch_lector_campaign_03",
+			"emp_arch_lector_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc04_emp_volkmar",
+		"caste": "lord",
+		"ui_group_icon": "infantry_hammer_great",
+		"ui_unit_icon": "emp_ch_volkmar"
+	},
+	{
+		"key": "wh_dlc04_vmp_helman_ghorst",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_ch_master_necromancer_helman"
+	},
+	{
+		"key": "wh_dlc04_vmp_strigoi_ghoul_king",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_strigoi_campaign_01",
+		"variants": [
+			"vmp_strigoi_campaign_01",
+			"vmp_strigoi_campaign_02",
+			"vmp_strigoi_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc04_vmp_vlad_con_carstein",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_ch_vlad"
+	},
+	{
+		"key": "wh_dlc04_vmp_vlad_von_carstein_hero",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_ch_vlad"
+	},
+	{
+		"key": "wh_dlc05_bst_morghur",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe",
+		"ui_unit_icon": "bst_ch_morghur"
+	},
+	{
+		"key": "wh_dlc05_emp_grey_wizard",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "emp_shadow_wizard_campaign_01",
+		"variants": [
+			"emp_shadow_wizard_campaign_01",
+			"emp_shadow_wizard_campaign_02"
+		]
+	},
+	{
+		"key": "wh_dlc05_emp_jade_wizard",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "emp_wizard_life_campaign_01",
+		"variants": [
+			"emp_wizard_life_campaign_01",
+			"emp_wizard_life_campaign_02"
+		]
+	},
+	{
+		"key": "wh_dlc05_vmp_red_duke",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_the_red_duke"
+	},
+	{
+		"key": "wh_dlc05_vmp_vampire_shadow",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "vmp_vampire_female_campaign_01",
+		"variants": [
+			"vmp_vampire_female_campaign_01",
+			"vmp_vampire_female_campaign_02",
+			"vmp_vampire_female_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc05_wef_ancient_treeman",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_treeman",
+		"ui_unit_icon": "wef_ancient_treeman"
+	},
+	{
+		"key": "wh_dlc05_wef_branchwraith",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "wef_branchwraith"
+	},
+	{
+		"key": "wh_dlc05_wef_durthu",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_treeman",
+		"ui_unit_icon": "wef_durthu"
+	},
+	{
+		"key": "wh_dlc05_wef_glade_lord",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_waystalker",
+		"ui_unit_icon": "wef_glade_lord_sword_bow_campaign_01",
+		"variants": [
+			"wef_glade_lord_sword_bow_campaign_01",
+			"wef_glade_lord_sword_bow_campaign_02",
+			"wef_glade_lord_sword_bow_campaign_03",
+			"wef_glade_lord_sword_bow_campaign_04",
+			"wef_glade_lord_sword_bow_campaign_05"
+		]
+	},
+	{
+		"key": "wh_dlc05_wef_glade_lord_fem",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_waystalker",
+		"ui_unit_icon": "wef_glade_female_lord_sword_bow_campaign_01",
+		"variants": [
+			"wef_glade_female_lord_sword_bow_campaign_01",
+			"wef_glade_female_lord_sword_bow_campaign_02",
+			"wef_glade_female_lord_sword_bow_campaign_03",
+			"wef_glade_female_lord_sword_bow_campaign_04",
+			"wef_glade_female_lord_sword_bow_campaign_05"
+		]
+	},
+	{
+		"key": "wh_dlc05_wef_orion",
+		"caste": "lord",
+		"ui_group_icon": "infantry_spear",
+		"ui_unit_icon": "wef_orion"
+	},
+	{
+		"key": "wh_dlc05_wef_spellsinger_beasts",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "wef_spellsinger_campaign_01",
+		"variants": [
+			"wef_spellsinger_campaign_01",
+			"wef_spellsinger_campaign_02",
+			"wef_spellsinger_campaign_03",
+			"wef_spellsinger_campaign_04",
+			"wef_spellsinger_campaign_05"
+		]
+	},
+	{
+		"key": "wh_dlc05_wef_spellsinger_life",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "wef_spellsinger_campaign_01",
+		"variants": [
+			"wef_spellsinger_campaign_01",
+			"wef_spellsinger_campaign_02",
+			"wef_spellsinger_campaign_03",
+			"wef_spellsinger_campaign_04",
+			"wef_spellsinger_campaign_05"
+		]
+	},
+	{
+		"key": "wh_dlc05_wef_spellsinger_shadow",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "wef_spellsinger_campaign_01",
+		"variants": [
+			"wef_spellsinger_campaign_01",
+			"wef_spellsinger_campaign_02",
+			"wef_spellsinger_campaign_03",
+			"wef_spellsinger_campaign_04",
+			"wef_spellsinger_campaign_05"
+		]
+	},
+	{
+		"key": "wh_dlc05_wef_waystalker",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_waystalker",
+		"ui_unit_icon": "wef_waystalkers_campaign_01",
+		"variants": [
+			"wef_waystalkers_campaign_01",
+			"wef_waystalkers_campaign_02",
+			"wef_waystalkers_campaign_03",
+			"wef_waystalkers_campaign_04",
+			"wef_waystalkers_campaign_05"
+		]
+	},
+	{
+		"key": "wh_dlc06_dwf_belegar",
+		"caste": "lord",
+		"ui_group_icon": "infantry_hammer_great",
+		"ui_unit_icon": "dwf_ch_belegar_ironhammer"
+	},
+	{
+		"key": "wh_dlc06_dwf_master_engineer_ghost",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_dwf_master_engineer",
+		"ui_unit_icon": "dwf_master_engineer_ghost_01"
+	},
+	{
+		"key": "wh_dlc06_dwf_runelord",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_dwf_runesmith",
+		"ui_unit_icon": "dwf_ch_runelord_campaign_01",
+		"variants": [
+			"dwf_ch_runelord_campaign_01",
+			"dwf_ch_runelord_campaign_02",
+			"dwf_ch_runelord_campaign_03",
+			"dwf_ch_runelord_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc06_dwf_runesmith_ghost",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_dwf_runesmith",
+		"ui_unit_icon": "dwf_runesmith_ghost_01"
+	},
+	{
+		"key": "wh_dlc06_dwf_thane_ghost_1",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_dwf_champion",
+		"ui_unit_icon": "dwf_thane_ghost_01",
+		"variants": [
+			"dwf_thane_ghost_01",
+			"dwf_thane_ghost_02"
+		]
+	},
+	{
+		"key": "wh_dlc06_dwf_thane_ghost_2",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_dwf_champion",
+		"ui_unit_icon": "dwf_thane_ghost_01",
+		"variants": [
+			"dwf_thane_ghost_01",
+			"dwf_thane_ghost_02"
+		]
+	},
+	{
+		"key": "wh_dlc06_grn_night_goblin_warboss",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword_grn",
+		"ui_unit_icon": "grn_night_goblin_warboss_campaign_01",
+		"variants": [
+			"grn_night_goblin_warboss_campaign_01",
+			"grn_night_goblin_warboss_campaign_02",
+			"grn_night_goblin_warboss_campaign_03",
+			"grn_night_goblin_warboss_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc06_grn_skarsnik",
+		"caste": "lord",
+		"ui_group_icon": "infantry_spear_halberd",
+		"ui_unit_icon": "grn_ch_skarsnik"
+	},
+	{
+		"key": "wh_dlc06_grn_wurrzag_da_great_prophet",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_big_waaagh",
+		"ui_unit_icon": "grn_ch_wurrzag"
+	},
+	{
+		"key": "wh_dlc07_brt_alberic",
+		"caste": "lord",
+		"ui_group_icon": "infantry_spear",
+		"ui_unit_icon": "brt_alberic_bordeleaux"
+	},
+	{
+		"key": "wh_dlc07_brt_damsel_beasts",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "brt_damsel_campaign_01",
+		"variants": [
+			"brt_damsel_campaign_01",
+			"brt_damsel_campaign_02"
+		]
+	},
+	{
+		"key": "wh_dlc07_brt_damsel_life",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "brt_damsel_campaign_01",
+		"variants": [
+			"brt_damsel_campaign_01",
+			"brt_damsel_campaign_02"
+		]
+	},
+	{
+		"key": "wh_dlc07_brt_fay_enchantress",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "brt_ch_fay_enchantress"
+	},
+	{
+		"key": "wh_dlc07_brt_prophetess_beasts",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc03_lore_beasts",
+		"ui_unit_icon": "brt_prophetess_campaign_01",
+		"variants": [
+			"brt_prophetess_campaign_01",
+			"brt_prophetess_campaign_02",
+			"brt_prophetess_campaign_03",
+			"brt_prophetess_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc07_brt_prophetess_heavens",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_heavens",
+		"ui_unit_icon": "brt_prophetess_campaign_01",
+		"variants": [
+			"brt_prophetess_campaign_01",
+			"brt_prophetess_campaign_02",
+			"brt_prophetess_campaign_03",
+			"brt_prophetess_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc07_brt_prophetess_life",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_life",
+		"ui_unit_icon": "brt_prophetess_campaign_01",
+		"variants": [
+			"brt_prophetess_campaign_01",
+			"brt_prophetess_campaign_02",
+			"brt_prophetess_campaign_03",
+			"brt_prophetess_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc07_chs_chaos_sorcerer_shadow",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "chs_sorcerer_campaign_01",
+		"variants": [
+			"chs_sorcerer_campaign_01",
+			"chs_sorcerer_campaign_02",
+			"chs_sorcerer_campaign_03",
+			"chs_sorcerer_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc07_chs_sorcerer_lord_shadow",
+		"caste": "lord",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "chs_sorcerer_lord_campaign_01",
+		"variants": [
+			"chs_sorcerer_lord_campaign_01",
+			"chs_sorcerer_lord_campaign_02",
+			"chs_sorcerer_lord_campaign_03",
+			"chs_sorcerer_lord_campaign_04"
+		]
+	},
+	{
+		"key": "wh_dlc08_chs_challenger_khorne",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "chs_chaos_lord_campaign_01",
+		"variants": [
+			"chs_chaos_lord_campaign_01",
+			"chs_chaos_lord_campaign_02",
+			"chs_chaos_lord_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc08_chs_challenger_nurgle",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "chs_chaos_lord_campaign_01",
+		"variants": [
+			"chs_chaos_lord_campaign_01",
+			"chs_chaos_lord_campaign_02",
+			"chs_chaos_lord_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc08_chs_challenger_slaanesh",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "chs_chaos_lord_campaign_01",
+		"variants": [
+			"chs_chaos_lord_campaign_01",
+			"chs_chaos_lord_campaign_02",
+			"chs_chaos_lord_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc08_chs_challenger_tzeentch",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "chs_chaos_lord_campaign_01",
+		"variants": [
+			"chs_chaos_lord_campaign_01",
+			"chs_chaos_lord_campaign_02",
+			"chs_chaos_lord_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc08_nor_arzik",
+		"caste": "lord",
+		"ui_group_icon": "wh3_main_lore_tzeentch",
+		"ui_unit_icon": "chs_ch_arzik"
+	},
+	{
+		"key": "wh_dlc08_nor_fimir_balefiend_fire",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "nor_cha_fimir_balefiend_campaign_01",
+		"variants": [
+			"nor_cha_fimir_balefiend_campaign_01",
+			"nor_cha_fimir_balefiend_campaign_02",
+			"nor_cha_fimir_balefiend_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc08_nor_fimir_balefiend_shadow",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc05_wef_lore_shadow",
+		"ui_unit_icon": "nor_cha_fimir_balefiend_campaign_01",
+		"variants": [
+			"nor_cha_fimir_balefiend_campaign_01",
+			"nor_cha_fimir_balefiend_campaign_02",
+			"nor_cha_fimir_balefiend_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc08_nor_kihar",
+		"caste": "hero",
+		"ui_group_icon": "wh3_main_lore_slaanesh",
+		"ui_unit_icon": "chs_ch_kihar_ie"
+	},
+	{
+		"key": "wh_dlc08_nor_shaman_sorcerer_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "nor_cha_shaman_sorcerer_campaign_01",
+		"variants": [
+			"nor_cha_shaman_sorcerer_campaign_01",
+			"nor_cha_shaman_sorcerer_campaign_02",
+			"nor_cha_shaman_sorcerer_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc08_nor_shaman_sorcerer_fire",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "nor_cha_shaman_sorcerer_campaign_01",
+		"variants": [
+			"nor_cha_shaman_sorcerer_campaign_01",
+			"nor_cha_shaman_sorcerer_campaign_02",
+			"nor_cha_shaman_sorcerer_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc08_nor_shaman_sorcerer_metal",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "nor_cha_shaman_sorcerer_campaign_01",
+		"variants": [
+			"nor_cha_shaman_sorcerer_campaign_01",
+			"nor_cha_shaman_sorcerer_campaign_02",
+			"nor_cha_shaman_sorcerer_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc08_nor_skin_wolf_werekin",
+		"caste": "hero",
+		"ui_group_icon": "wh_dlc08_nor_skin_wolf_werekin",
+		"ui_unit_icon": "nor_cha_skin_wolf_werekin_campaign_01",
+		"variants": [
+			"nor_cha_skin_wolf_werekin_campaign_01",
+			"nor_cha_skin_wolf_werekin_campaign_02",
+			"nor_cha_skin_wolf_werekin_campaign_03"
+		]
+	},
+	{
+		"key": "wh_dlc08_nor_throgg",
+		"caste": "lord",
+		"ui_group_icon": "infantry_hammer_great",
+		"ui_unit_icon": "nor_cha_throgg"
+	},
+	{
+		"key": "wh_dlc08_nor_wulfrik",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "nor_cha_wulfrik"
+	},
+	{
+		"key": "wh_main_brt_damsel_heavens",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_heavens",
+		"ui_unit_icon": "brt_damsel_campaign_01",
+		"variants": [
+			"brt_damsel_campaign_01",
+			"brt_damsel_campaign_02"
+		]
+	},
+	{
+		"key": "wh_main_brt_lord",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "brt_lords_campaign_01",
+		"variants": [
+			"brt_lords_campaign_01",
+			"brt_lords_campaign_02",
+			"brt_lords_campaign_03",
+			"brt_lords_campaign_04"
+		]
+	},
+	{
+		"key": "wh_main_brt_louen_leoncouer",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "brt_ch_king_louen_leoncoeur"
+	},
+	{
+		"key": "wh_main_brt_paladin",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_brt_champion",
+		"ui_unit_icon": "brt_paladin_campaign_01",
+		"variants": [
+			"brt_paladin_campaign_01",
+			"brt_paladin_campaign_02",
+			"brt_paladin_campaign_03",
+			"brt_paladin_campaign_04"
+		]
+	},
+	{
+		"key": "wh_main_chs_archaon",
+		"caste": "lord",
+		"ui_group_icon": "wh2_dlc12_magic_lore_generic",
+		"ui_unit_icon": "chs_ch_archaon"
+	},
+	{
+		"key": "wh_main_chs_chaos_sorcerer_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "chs_sorcerer_campaign_01",
+		"variants": [
+			"chs_sorcerer_campaign_01",
+			"chs_sorcerer_campaign_02",
+			"chs_sorcerer_campaign_03",
+			"chs_sorcerer_campaign_04"
+		]
+	},
+	{
+		"key": "wh_main_chs_chaos_sorcerer_fire",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "chs_sorcerer_campaign_01",
+		"variants": [
+			"chs_sorcerer_campaign_01",
+			"chs_sorcerer_campaign_02",
+			"chs_sorcerer_campaign_03",
+			"chs_sorcerer_campaign_04"
+		]
+	},
+	{
+		"key": "wh_main_chs_chaos_sorcerer_metal",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "chs_sorcerer_campaign_01",
+		"variants": [
+			"chs_sorcerer_campaign_01",
+			"chs_sorcerer_campaign_02",
+			"chs_sorcerer_campaign_03",
+			"chs_sorcerer_campaign_04"
+		]
+	},
+	{
+		"key": "wh_main_chs_exalted_hero",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_chs_champion",
+		"ui_unit_icon": "chs_exalted_hero_campaign_01",
+		"variants": [
+			"chs_exalted_hero_campaign_01",
+			"chs_exalted_hero_campaign_02",
+			"chs_exalted_hero_campaign_03",
+			"chs_exalted_hero_campaign_04",
+			"chs_exalted_hero_campaign_05"
+		]
+	},
+	{
+		"key": "wh_main_chs_lord",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "chs_chaos_lord_campaign_01",
+		"variants": [
+			"chs_chaos_lord_campaign_01",
+			"chs_chaos_lord_campaign_02",
+			"chs_chaos_lord_campaign_03"
+		]
+	},
+	{
+		"key": "wh_main_chs_lord_of_change",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "dae_exalted_lord_of_change_campaign_01",
+		"variants": [
+			"dae_exalted_lord_of_change_campaign_01",
+			"dae_exalted_lord_of_change_campaign_02",
+			"dae_exalted_lord_of_change_campaign_03",
+			"dae_exalted_lord_of_change_campaign_04",
+			"dae_exalted_lord_of_change_campaign_05"
+		]
+	},
+	{
+		"key": "wh_main_dwf_lord",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe",
+		"ui_unit_icon": "dwf_lord_campaign_01",
+		"variants": [
+			"dwf_lord_campaign_01",
+			"dwf_lord_campaign_02",
+			"dwf_lord_campaign_03",
+			"dwf_lord_campaign_04",
+			"dwf_lord_campaign_05"
+		]
+	},
+	{
+		"key": "wh_main_dwf_master_engineer",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_dwf_master_engineer",
+		"ui_unit_icon": "dwf_master_engineer_campaign_01",
+		"variants": [
+			"dwf_master_engineer_campaign_01",
+			"dwf_master_engineer_campaign_02"
+		]
+	},
+	{
+		"key": "wh_main_dwf_runesmith",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_dwf_runesmith",
+		"ui_unit_icon": "dwf_runesmith_campaign_01",
+		"variants": [
+			"dwf_runesmith_campaign_01",
+			"dwf_runesmith_campaign_02",
+			"dwf_runesmith_campaign_03",
+			"dwf_runesmith_campaign_04",
+			"dwf_runesmith_campaign_05"
+		]
+	},
+	{
+		"key": "wh_main_dwf_thane",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_dwf_champion",
+		"ui_unit_icon": "dwf_thane_campaign_01",
+		"variants": [
+			"dwf_thane_campaign_01",
+			"dwf_thane_campaign_02",
+			"dwf_thane_campaign_03"
+		]
+	},
+	{
+		"key": "wh_main_dwf_thorgrim_grudgebearer",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_great",
+		"ui_unit_icon": "dwf_throne_of_power"
+	},
+	{
+		"key": "wh_main_dwf_ungrim_ironfist",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_great",
+		"ui_unit_icon": "dwf_ch_ungrim"
+	},
+	{
+		"key": "wh_main_emp_balthasar_gelt",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "emp_ch_balthasar"
+	},
+	{
+		"key": "wh_main_emp_bright_wizard",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_fire",
+		"ui_unit_icon": "emp_wizard_fire_campaign_01",
+		"variants": [
+			"emp_wizard_fire_campaign_01",
+			"emp_wizard_fire_campaign_02",
+			"emp_wizard_fire_campaign_03"
+		]
+	},
+	{
+		"key": "wh_main_emp_captain",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_emp_champion",
+		"ui_unit_icon": "emp_captains_campaign_01",
+		"variants": [
+			"emp_captains_campaign_01",
+			"emp_captains_campaign_02"
+		]
+	},
+	{
+		"key": "wh_main_emp_celestial_wizard",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_heavens",
+		"ui_unit_icon": "emp_wizard_heavens"
+	},
+	{
+		"key": "wh_main_emp_karl_franz",
+		"caste": "lord",
+		"ui_group_icon": "infantry_hammer_great",
+		"ui_unit_icon": "emp_ch_karl_2h_hammer"
+	},
+	{
+		"key": "wh_main_emp_light_wizard",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_light",
+		"ui_unit_icon": "emp_wizard_light_campaign_01",
+		"variants": [
+			"emp_wizard_light_campaign_01",
+			"emp_wizard_light_campaign_02",
+			"emp_wizard_light_campaign_03"
+		]
+	},
+	{
+		"key": "wh_main_emp_lord",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword",
+		"ui_unit_icon": "emp_generals_campaign_01",
+		"variants": [
+			"emp_generals_campaign_01",
+			"emp_generals_campaign_02",
+			"emp_generals_campaign_03",
+			"emp_generals_campaign_04",
+			"emp_generals_campaign_05"
+		]
+	},
+	{
+		"key": "wh_main_emp_warrior_priest",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_emp_dignitary",
+		"ui_unit_icon": "emp_warrior_priest_campaign_01",
+		"variants": [
+			"emp_warrior_priest_campaign_01",
+			"emp_warrior_priest_campaign_02",
+			"emp_warrior_priest_campaign_03",
+			"emp_warrior_priest_campaign_04"
+		]
+	},
+	{
+		"key": "wh_main_emp_witch_hunter",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_emp_spy",
+		"ui_unit_icon": "emp_witch_hunter_campaign_01",
+		"variants": [
+			"emp_witch_hunter_campaign_01",
+			"emp_witch_hunter_campaign_02",
+			"emp_witch_hunter_campaign_03",
+			"emp_witch_hunter_campaign_04",
+			"emp_witch_hunter_campaign_05"
+		]
+	},
+	{
+		"key": "wh_main_grn_azhag_the_slaughterer",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "grn_ch_azhag"
+	},
+	{
+		"key": "wh_main_grn_goblin_big_boss",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_grn_spy",
+		"ui_unit_icon": "grn_goblin_bigboss_campaign_01",
+		"variants": [
+			"grn_goblin_bigboss_campaign_01",
+			"grn_goblin_bigboss_campaign_02",
+			"grn_goblin_bigboss_campaign_03"
+		]
+	},
+	{
+		"key": "wh_main_grn_goblin_great_shaman",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_lil_waaagh",
+		"ui_unit_icon": "grn_goblin_great_shaman_campaign_01",
+		"variants": [
+			"grn_goblin_great_shaman_campaign_01",
+			"grn_goblin_great_shaman_campaign_02",
+			"grn_goblin_great_shaman_campaign_03",
+			"grn_goblin_great_shaman_campaign_04",
+			"grn_goblin_great_shaman_campaign_05",
+			"grn_goblin_great_shaman_campaign_06"
+		]
+	},
+	{
+		"key": "wh_main_grn_grimgor_ironhide",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_great_grn",
+		"ui_unit_icon": "grn_ch_grimgor"
+	},
+	{
+		"key": "wh_main_grn_night_goblin_shaman",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_lil_waaagh",
+		"ui_unit_icon": "grn_night_goblin_shaman_campaign_01",
+		"variants": [
+			"grn_night_goblin_shaman_campaign_01",
+			"grn_night_goblin_shaman_campaign_02",
+			"grn_night_goblin_shaman_campaign_03",
+			"grn_night_goblin_shaman_campaign_04",
+			"grn_night_goblin_shaman_campaign_05",
+			"grn_night_goblin_shaman_campaign_06"
+		]
+	},
+	{
+		"key": "wh_main_grn_orc_shaman",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_big_waaagh",
+		"ui_unit_icon": "grn_orc_shaman_campaign_01",
+		"variants": [
+			"grn_orc_shaman_campaign_01",
+			"grn_orc_shaman_campaign_02",
+			"grn_orc_shaman_campaign_03",
+			"grn_orc_shaman_campaign_04"
+		]
+	},
+	{
+		"key": "wh_main_grn_orc_warboss",
+		"caste": "lord",
+		"ui_group_icon": "infantry_sword_grn",
+		"ui_unit_icon": "grn_orc_warbosses_campaign_01",
+		"variants": [
+			"grn_orc_warbosses_campaign_01",
+			"grn_orc_warbosses_campaign_02",
+			"grn_orc_warbosses_campaign_03",
+			"grn_orc_warbosses_campaign_04",
+			"grn_orc_warbosses_campaign_05"
+		]
+	},
+	{
+		"key": "wh_main_nor_chaos_sorcerer_metal",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_metal",
+		"ui_unit_icon": "nor_chaos_sorcerer"
+	},
+	{
+		"key": "wh_main_nor_marauder_chieftain",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe",
+		"ui_unit_icon": "nor_marauder_chieftain_campaign_01",
+		"variants": [
+			"nor_marauder_chieftain_campaign_01",
+			"nor_marauder_chieftain_campaign_02",
+			"nor_marauder_chieftain_campaign_03",
+			"nor_marauder_chieftain_campaign_04"
+		]
+	},
+	{
+		"key": "wh_main_vmp_banshee",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_vmp_spy",
+		"ui_unit_icon": "vmp_banshees_campaign_01",
+		"variants": [
+			"vmp_banshees_campaign_01",
+			"vmp_banshees_campaign_02",
+			"vmp_banshees_campaign_03"
+		]
+	},
+	{
+		"key": "wh_main_vmp_heinrich_kemmler",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_ch_heinrich"
+	},
+	{
+		"key": "wh_main_vmp_lord",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_vampire_lords_sword_campaign_01",
+		"variants": [
+			"vmp_vampire_lords_sword_campaign_01",
+			"vmp_vampire_lords_sword_campaign_02",
+			"vmp_vampire_lords_sword_campaign_03",
+			"vmp_vampire_lords_sword_campaign_04",
+			"vmp_vampire_lords_sword_campaign_05"
+		]
+	},
+	{
+		"key": "wh_main_vmp_mannfred_von_carstein",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_ch_mannfred"
+	},
+	{
+		"key": "wh_main_vmp_master_necromancer",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_master_necromancer_campaign_01",
+		"variants": [
+			"vmp_master_necromancer_campaign_01",
+			"vmp_master_necromancer_campaign_02",
+			"vmp_master_necromancer_campaign_03",
+			"vmp_master_necromancer_campaign_04"
+		]
+	},
+	{
+		"key": "wh_main_vmp_necromancer",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_necromancer_campaign_01",
+		"variants": [
+			"vmp_necromancer_campaign_01",
+			"vmp_necromancer_campaign_02",
+			"vmp_necromancer_campaign_03"
+		]
+	},
+	{
+		"key": "wh_main_vmp_vampire_death",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_lore_death",
+		"ui_unit_icon": "vmp_vampire_female_campaign_01",
+		"variants": [
+			"vmp_vampire_female_campaign_01",
+			"vmp_vampire_female_campaign_02",
+			"vmp_vampire_female_campaign_03"
+		]
+	},
+	{
+		"key": "wh_main_vmp_wight_king",
+		"caste": "hero",
+		"ui_group_icon": "wh_main_vmp_champion",
+		"ui_unit_icon": "vmp_wight_king_sword_campaign_01",
+		"variants": [
+			"vmp_wight_king_sword_campaign_01",
+			"vmp_wight_king_sword_campaign_02",
+			"vmp_wight_king_sword_campaign_03",
+			"vmp_wight_king_sword_campaign_04"
+		]
+	},
+	{
+		"key": "wh_pro01_dwf_grombrindal",
+		"caste": "lord",
+		"ui_group_icon": "infantry_axe_great",
+		"ui_unit_icon": "dwf_ch_grombrindal"
+	},
+	{
+		"key": "wh_pro02_vmp_isabella_von_carstein",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_ch_isabella"
+	},
+	{
+		"key": "wh_pro02_vmp_isabella_von_carstein_hero",
+		"caste": "lord",
+		"ui_group_icon": "wh_main_lore_vampires",
+		"ui_unit_icon": "vmp_ch_isabella"
+	}
+]

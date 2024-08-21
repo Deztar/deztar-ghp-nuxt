@@ -19,6 +19,7 @@ const route = useRoute()
 const routes = [
   { title: 'Home', path: '/' },
   { title: 'Rimworld Crop Planner', path: '/rimworld-crop-planner' },
+  { title: 'Total Warhammer Army Planner', path: '/total-warhammer-army-planner' },
 ]
 
 </script>
