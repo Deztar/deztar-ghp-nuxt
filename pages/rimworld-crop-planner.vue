@@ -1,5 +1,5 @@
 <template>
-  <div class="container fr1" :class="{ 'hightlight-tips': settings.hightlightTips }">
+  <div id="rimworld-crop-planner" class="container fr1" :class="{ 'hightlight-tips': settings.hightlightTips }">
     <div class="left">
       <div class="filter" :title="descriptions.filter">
         <div v-for="(filter, index) of pawnFilterDiplay" @click="pawnFilterData[index] = !pawnFilterData[index]"
@@ -79,7 +79,7 @@
             <td><img class="icon" :src="images.zone" /></td>
             <!-- <td><img class="icon" :src="images.harvest" /></td> -->
             <td><img class="icon" :src="images.shelf" /></td>
-            <td v-for="d in drugs " :key="d.name">
+            <td v-for="d in drugs " :key="d.name" style="min-width: 4ch">
               <img class="icon" :src="d.image" :title="descriptions[d.name]" />
             </td>
           </tr>
@@ -316,6 +316,8 @@ const result = computed(() => {
       for (const drug of drugs) result[drug.name] += r.amount * (r.drugs[drug.name] || 0)
     if (re.production && re.pawn.production) result.production[re.pawn.production?.name] += re.production
   }
+  result.meat = roundToDec(result.meat)
+  result.production.nut = roundToDec(result.production.nut)
   // Drug Crops
   result.drugs = { [Mode.Greenhouse]: {}, [Mode.Season]: {} }
   for (const drug of drugs) {
@@ -408,202 +410,204 @@ onBeforeUnmount(() => {
 @import '@css/color.scss';
 @import '@css/borders.scss';
 
-.container {
-  margin: 1ch;
-  justify-content: space-evenly;
-  // min-height: calc(100vh - 3ch);
-}
-
-.filter {
-  @include border-basic;
-  flex-shrink: 0;
-  height: 0;
-  min-height: 100%;
-  box-sizing: border-box;
-  overflow-y: scroll;
-  padding: 0.5ch 1ch;
-  user-select: none;
-
-  &>div {
-    cursor: pointer;
+#rimworld-crop-planner {
+  &.container {
+    margin: 1ch;
+    justify-content: space-evenly;
+    // min-height: calc(100vh - 3ch);
   }
 
-  .disabled {
-    text-decoration: line-through;
-    color: $color-border;
-  }
-}
+  .filter {
+    @include border-basic;
+    flex-shrink: 0;
+    height: 0;
+    min-height: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    padding: 0.5ch 1ch;
+    user-select: none;
 
-.middle {
-  row-gap: 3ch;
-
-  .page-header {
-    align-items: center;
-
-    .title {
-      font-weight: bold;
-      font-size: 20px;
-      color: $color-blue;
-    }
-  }
-}
-
-.settings {
-  column-gap: 10ch;
-  justify-content: space-between;
-
-  .buttons div {
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .inputs div,
-  .drugs-soil div {
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-
-.records {
-  border-spacing: 3px;
-
-  thead .record {
-    text-align: center;
-  }
-
-  .record {
-    .delete {
-      width: 25px;
+    &>div {
+      cursor: pointer;
     }
 
-    .name {
-      width: 11ch;
-    }
-
-    .index {
+    .disabled {
+      text-decoration: line-through;
       color: $color-border;
     }
+  }
 
-    .pawn {
-      width: 15ch;
-    }
+  .middle {
+    row-gap: 3ch;
 
-    .icon.disabled {
-      filter: grayscale(100%);
-    }
-
-    .meat-check {
-      height: 25px;
-      padding: 0 0.5ch;
-    }
-
-    .meat,
-    .veg,
-    .shelf {
-      text-align: center;
-    }
-
-    .prod {
-      justify-content: center;
+    .page-header {
       align-items: center;
-    }
-  }
 
-  .veg-disabled div.veg,
-  .meat-disabled div.meat {
-    color: $color-background;
-  }
-}
-
-.result {
-  min-width: 29.5ch;
-
-  .card {
-    @include border-basic;
-    padding: 1ch;
-
-    .header {
-      text-align: center;
-
-      .mode {
-        flex-grow: 1
+      .title {
+        font-weight: bold;
+        font-size: 20px;
+        color: $color-blue;
       }
     }
+  }
 
-    .row {
-      display: flex;
+  .settings {
+    column-gap: 10ch;
+    justify-content: space-between;
+
+    .buttons div {
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .inputs div,
+    .drugs-soil div {
       justify-content: space-between;
       align-items: center;
+    }
+  }
 
-      &>*:not(:last-child) {
-        margin-right: 0.5ch;
+  .records {
+    border-spacing: 3px;
+
+    thead .record {
+      text-align: center;
+    }
+
+    .record {
+      .delete {
+        width: 25px;
+      }
+
+      .name {
+        width: 11ch;
+      }
+
+      .index {
+        color: $color-border;
+      }
+
+      .pawn {
+        width: 15ch;
+      }
+
+      .icon.disabled {
+        filter: grayscale(100%);
+      }
+
+      .meat-check {
+        height: 25px;
+        padding: 0 0.5ch;
+      }
+
+      .meat,
+      .veg,
+      .shelf {
+        text-align: center;
+      }
+
+      .prod {
+        justify-content: center;
+        align-items: center;
       }
     }
 
-    .soil {
-      flex-grow: 1;
-      color: $color-text-gray;
-      width: 11ch;
-    }
-
-    .plot {
-      width: 4ch;
-      text-align: center;
-    }
-
-    .harvest,
-    .shelf {
-      color: $color-text-gray;
-      width: 3ch;
-      text-align: center;
-    }
-
-    .separator {
-      margin-top: auto;
-      margin-bottom: 0;
-      border-bottom: 1px dashed $color-border;
+    .veg-disabled div.veg,
+    .meat-disabled div.meat {
+      color: $color-background;
     }
   }
 
-  .production {
-    align-self: center;
-    min-width: 8ch;
+  .result {
+    min-width: 29.5ch;
+
+    .card {
+      @include border-basic;
+      padding: 1ch;
+
+      .header {
+        text-align: center;
+
+        .mode {
+          flex-grow: 1
+        }
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &>*:not(:last-child) {
+          margin-right: 0.5ch;
+        }
+      }
+
+      .soil {
+        flex-grow: 1;
+        color: $color-text-gray;
+        width: 11ch;
+      }
+
+      .plot {
+        width: 4ch;
+        text-align: center;
+      }
+
+      .harvest,
+      .shelf {
+        color: $color-text-gray;
+        width: 3ch;
+        text-align: center;
+      }
+
+      .separator {
+        margin-top: auto;
+        margin-bottom: 0;
+        border-bottom: 1px dashed $color-border;
+      }
+    }
+
+    .production {
+      align-self: center;
+      min-width: 8ch;
+    }
   }
-}
 
-.Greenhouse {
-  color: $color-green;
-}
+  .Greenhouse {
+    color: $color-green;
+  }
 
-.Stockpile {
-  color: $color-orange;
-}
+  .Stockpile {
+    color: $color-orange;
+  }
 
-.icon {
-  height: 25px;
-  vertical-align: bottom;
-}
+  .icon {
+    height: 25px;
+    vertical-align: bottom;
+  }
 
-.gray-text {
-  color: $color-text-gray;
-}
+  .gray-text {
+    color: $color-text-gray;
+  }
 
-.number-short {
-  width: 3ch;
-  text-align: center;
-}
+  .number-short {
+    width: 3ch;
+    text-align: center;
+  }
 
-.number-long {
-  width: 4ch;
-  text-align: center;
-}
+  .number-long {
+    width: 4ch;
+    text-align: center;
+  }
 
-.number-longer {
-  width: 5ch;
-  text-align: center;
-}
+  .number-longer {
+    width: 5ch;
+    text-align: center;
+  }
 
-.hightlight-tips *[title] {
-  box-shadow: 0 0 5px 2px $color-orange;
+  .hightlight-tips *[title] {
+    box-shadow: 0 0 5px 2px $color-orange;
+  }
 }
 </style>

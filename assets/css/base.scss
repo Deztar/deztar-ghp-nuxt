@@ -18,8 +18,8 @@ html {
 }
 
 ::-webkit-scrollbar {
-  height: 1ch;
-  width: 1ch;
+  height: 8px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -105,26 +105,40 @@ input::-webkit-inner-spin-button {
   color: $color-red;
 }
 
+.fr0 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0;
+  row-gap: 0;
+}
+
 .fr {
   display: flex;
   flex-direction: row;
-  column-gap: 0.5ch;
+  column-gap: 5px;
 }
 
 .fr1 {
   display: flex;
   flex-direction: row;
-  column-gap: 1ch;
+  column-gap: 10px;
+}
+
+.fc0 {
+  display: flex;
+  flex-direction: column;
+  column-gap: 0;
+  row-gap: 0;
 }
 
 .fc {
   display: flex;
   flex-direction: column;
-  row-gap: 0.5ch;
+  row-gap: 5px;
 }
 
 .fc1 {
   display: flex;
   flex-direction: column;
-  row-gap: 1ch;
+  row-gap: 10px;
 }

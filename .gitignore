@@ -25,3 +25,6 @@ logs
 
 # Development
 .vscode
+
+# images
+public/img/tww
