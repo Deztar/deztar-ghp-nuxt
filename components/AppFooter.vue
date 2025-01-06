@@ -20,6 +20,7 @@ const routes = [
   { title: 'Home', path: '/' },
   { title: 'Rimworld Crop Planner', path: '/rimworld-crop-planner' },
   { title: 'Total Warhammer Army Planner', path: '/total-warhammer-army-planner' },
+  { title: 'Hex Tile Sandbox', path: '/hex-tile-sandbox' },
 ]
 
 </script>

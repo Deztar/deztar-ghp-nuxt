@@ -142,3 +142,18 @@ input::-webkit-inner-spin-button {
   flex-direction: column;
   row-gap: 10px;
 }
+
+.number-short {
+  width: 3ch;
+  text-align: center;
+}
+
+.number-long {
+  width: 4ch;
+  text-align: center;
+}
+
+.number-longer {
+  width: 5ch;
+  text-align: center;
+}
