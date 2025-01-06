@@ -1,6 +1,6 @@
 <template>
   <div>
-    <template v-for="r of routes" :key="r.name">
+    <template v-for="r of routes" :key="r.path">
       <template v-if="route.path !== r.path">
         <NuxtLink :to="r.path">{{ r.title }}</NuxtLink>
       </template>
@@ -19,7 +19,6 @@ const route = useRoute()
 const routes = [
   { title: 'Home', path: '/' },
   { title: 'Rimworld Crop Planner', path: '/rimworld-crop-planner' },
-  { title: 'Total Warhammer Army Planner', path: '/total-warhammer-army-planner' },
   { title: 'Hex Tile Sandbox', path: '/hex-tile-sandbox' },
 ]
 
