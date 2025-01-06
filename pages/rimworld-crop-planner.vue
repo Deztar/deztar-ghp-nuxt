@@ -591,21 +591,6 @@ onBeforeUnmount(() => {
     color: $color-text-gray;
   }
 
-  .number-short {
-    width: 3ch;
-    text-align: center;
-  }
-
-  .number-long {
-    width: 4ch;
-    text-align: center;
-  }
-
-  .number-longer {
-    width: 5ch;
-    text-align: center;
-  }
-
   .hightlight-tips *[title] {
     box-shadow: 0 0 5px 2px $color-orange;
   }

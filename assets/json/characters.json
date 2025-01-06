@@ -3684,7 +3684,7 @@
 	},
 	{
 		"key": "wh_dlc04_vmp_vlad_von_carstein_hero",
-		"caste": "lord",
+		"caste": "hero",
 		"ui_group_icon": "wh_main_lore_vampires",
 		"ui_unit_icon": "vmp_ch_vlad"
 	},
@@ -4589,7 +4589,7 @@
 	},
 	{
 		"key": "wh_pro02_vmp_isabella_von_carstein_hero",
-		"caste": "lord",
+		"caste": "hero",
 		"ui_group_icon": "wh_main_lore_vampires",
 		"ui_unit_icon": "vmp_ch_isabella"
 	}

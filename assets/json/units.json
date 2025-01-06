@@ -3395,14 +3395,6 @@
 		"cost": 1
 	},
 	{
-		"key": "wh2_main_skv_inf_stormvermin_0_quest",
-		"caste": "melee_infantry",
-		"num_men": 160,
-		"ui_group_icon": "wh2_main_skv_infantry_halberd",
-		"ui_unit_icon": "wh2_main_skv_inf_stormvermin_halberds",
-		"mp_cost": 1000
-	},
-	{
 		"key": "wh2_main_skv_inf_stormvermin_1",
 		"caste": "melee_infantry",
 		"num_men": 160,
@@ -9019,6 +9011,15 @@
 		"rarity": "core"
 	},
 	{
+		"key": "wh3_main_grn_inf_goblins_sword_shield",
+		"caste": "melee_infantry",
+		"num_men": 160,
+		"ui_group_icon": "infantry_sword_grn",
+		"ui_unit_icon": "wh3_main_grn_inf_goblins_sword_shield",
+		"mp_cost": 300,
+		"rarity": "core"
+	},
+	{
 		"key": "wh_main_grn_inf_night_goblin_archers",
 		"caste": "missile_infantry",
 		"num_men": 120,
@@ -9079,6 +9080,15 @@
 		"ui_group_icon": "infantry_sword_grn",
 		"ui_unit_icon": "wh_main_grn_orc_boyz_sword",
 		"mp_cost": 430,
+		"rarity": "core"
+	},
+	{
+		"key": "wh3_main_grn_inf_orc_boyz_spear_shield",
+		"caste": "melee_infantry",
+		"num_men": 120,
+		"ui_group_icon": "infantry_spear",
+		"ui_unit_icon": "wh3_main_grn_inf_orc_boyz_spear_shield",
+		"mp_cost": 450,
 		"rarity": "core"
 	},
 	{

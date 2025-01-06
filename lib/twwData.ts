@@ -153,7 +153,8 @@ export const units: Unit[] = (unitsJSON
     //!u.key.includes('_ror') &&
     !u.key.includes('_chieftain_') &&
     !u.key.endsWith('_grudge_reward') &&
-    !u.key.endsWith('_malakai')
+    !u.key.endsWith('_malakai') &&
+    !u.key.endsWith('_blessed')
   ) as Unit[])
   .sort(unitComparator)
 
