@@ -2,16 +2,29 @@
   <div class="storage-manager fc">
     <div v-for="k in storageKeys" class="row fr1">
       <div>{{ k }}</div>
+      <button @click="showData(k)" class="ml-auto">Show</button>
       <button @click="clearStorage" :data-key="k">Delete</button>
     </div>
+    <AppDialog v-model="showDialog">
+      {{ data }}
+    </AppDialog>
   </div>
 </template>
 
 <script setup lang="ts">
+import AppDialog from './AppDialog.vue';
+
 // Client Only
 const { hideNuxt } = defineProps({ 'hideNuxt': Boolean })
 
 const storageKeys = ref<string[]>([])
+const showDialog = ref(false)
+const data = ref('')
+const showData = (k: string) => {
+  const s = localStorage.getItem(k) || ''
+  data.value = JSON.stringify(JSON.parse(s), null, 1)
+  showDialog.value = true
+}
 
 const updateStorageKeys = () => {
   const keys = Object.keys({ ...localStorage })
