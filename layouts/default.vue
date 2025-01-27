@@ -11,7 +11,7 @@
 </script>
 
 <style lang="scss">
-@import '@css/base.scss';
+@use '@css/base.scss';
 
 #default {
   min-height: calc(100vh - 1ch);

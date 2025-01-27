@@ -1,5 +1,5 @@
-@import '@css/color.scss';
-@import '@css/borders.scss';
+@use 'color.scss';
+@use 'borders.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;1,400&display=swap');
 
@@ -23,30 +23,37 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: $color-background;
+  background-color: color.$color-background;
   box-shadow: inset 0 0 1ch rgba(0, 0, 0, 0.3) !important;
 }
 
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-corner {
-  background-color: $color-border;
+  background-color: color.$color-border;
 }
 
 body {
   font-family: 'Roboto Mono', monospace;
-  color: $color-text;
-  background-color: $color-background;
+  color: color.$color-text;
+  background-color: color.$color-background;
   margin: 0;
   font-size: $font-size;
   line-height: $line-height;
 }
 
-a {
-  color: $color-link;
+a,
+.link {
+  color: color.$color-link;
 }
 
-a:hover {
-  color: $color-link-hover;
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover,
+.link:hover {
+  color: color.$color-link-hover;
 }
 
 button,
@@ -54,28 +61,28 @@ select,
 input,
 option,
 .checkbox {
-  @include border-basic;
+  @include borders.border-basic;
   cursor: pointer;
-  color: $color-text;
+  color: color.$color-text;
   background: inherit;
   box-sizing: border-box;
 }
 
 option {
-  background: $color-background;
+  background: color.$color-background;
 }
 
 button:not(:disabled):hover,
 select:not(:disabled):hover,
 input:hover,
 .checkbox:not(.disabled):hover {
-  background-color: $color-border;
+  background-color: color.$color-border;
 }
 
 select:disabled,
 option:disabled,
 button:disabled {
-  color: $color-border !important;
+  color: color.$color-border !important;
   cursor: default;
 }
 
@@ -83,7 +90,7 @@ button:focus,
 select:focus,
 input:focus {
   outline: none;
-  box-shadow: 0px 0px 2px $color-text;
+  box-shadow: 0px 0px 2px color.$color-text;
 }
 
 input::-webkit-outer-spin-button,
@@ -92,9 +99,13 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+[list]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
 ::selection {
-  color: $color-background;
-  background-color: $color-black-25;
+  color: color.$color-background;
+  background-color: color.$color-black-25;
 }
 
 .nowrap {
@@ -102,7 +113,7 @@ input::-webkit-inner-spin-button {
 }
 
 .neg {
-  color: $color-red;
+  color: color.$color-red;
 }
 
 .fr0 {
@@ -141,6 +152,26 @@ input::-webkit-inner-spin-button {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+}
+
+.ac {
+  align-items: center;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.bs {
+  @include borders.border-basic
+}
+
+.bgs {
+  background-color: color.$color-background;
 }
 
 .number-short {

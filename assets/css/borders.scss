@@ -1,7 +1,7 @@
-@import '@css/color.scss';
+@use 'color.scss';
 
 @mixin border-basic {
 	border-width: 1px;
 	border-style: solid;
-	border-color: $color-border;
+	border-color: color.$color-border;
 }

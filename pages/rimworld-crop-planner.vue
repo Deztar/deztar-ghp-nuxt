@@ -1,7 +1,7 @@
 <template>
   <div id="rimworld-crop-planner" class="container fr1" :class="{ 'hightlight-tips': settings.hightlightTips }">
     <div class="left">
-      <div class="filter" :title="descriptions.filter">
+      <div class="filter bs" :title="descriptions.filter">
         <div v-for="(filter, index) of pawnFilterDiplay" @click="pawnFilterData[index] = !pawnFilterData[index]"
           :class="{ disabled: filter.disabled }" :key="index">
           {{ filter.name }}
@@ -134,7 +134,7 @@
               <div class="shelf number-short">{{ recExt[index].shelves }}</div>
             </td>
             <template v-if="recExt[index].pawn.canTakeDrugs">
-              <td v-for=" d  in  drugs " :key="d.name">
+              <td v-for=" d in drugs " :key="d.name">
                 <input class="number-long" type="number" v-model="r.drugs[d.name]" />
               </td>
             </template>
@@ -154,7 +154,7 @@
       </table>
     </div>
     <div class="result fc1">
-      <div class="card production fc1">
+      <div class="card production fc1 bs">
         <div class="row" :title="descriptions.meatConsumption">
           <img class="icon" :src="images.meat" />
           <div class="neg">{{ result.meat }}</div>
@@ -179,7 +179,7 @@
       <template v-for="mode in Mode" :key="mode">
         <RimworldResult :mode="mode" :result="result[mode]" :drug-result="result.drugs[mode]" />
       </template>
-      <div class="card fc1">
+      <div class="card fc1 bs">
         <div class="header row">
           <div class="mode">Grazing</div>
           <div class="plot"><img class="icon" :src="images.zone" /></div>
@@ -407,8 +407,7 @@ onBeforeUnmount(() => {
 </script>
 
 <style lang="scss">
-@import '@css/color.scss';
-@import '@css/borders.scss';
+@use '@css/color.scss';
 
 #rimworld-crop-planner {
   &.container {
@@ -418,7 +417,6 @@ onBeforeUnmount(() => {
   }
 
   .filter {
-    @include border-basic;
     flex-shrink: 0;
     height: 0;
     min-height: 100%;
@@ -433,7 +431,7 @@ onBeforeUnmount(() => {
 
     .disabled {
       text-decoration: line-through;
-      color: $color-border;
+      color: color.$color-border;
     }
   }
 
@@ -446,7 +444,7 @@ onBeforeUnmount(() => {
       .title {
         font-weight: bold;
         font-size: 20px;
-        color: $color-blue;
+        color: color.$color-blue;
       }
     }
   }
@@ -484,7 +482,7 @@ onBeforeUnmount(() => {
       }
 
       .index {
-        color: $color-border;
+        color: color.$color-border;
       }
 
       .pawn {
@@ -514,7 +512,7 @@ onBeforeUnmount(() => {
 
     .veg-disabled div.veg,
     .meat-disabled div.meat {
-      color: $color-background;
+      color: color.$color-background;
     }
   }
 
@@ -522,7 +520,6 @@ onBeforeUnmount(() => {
     min-width: 29.5ch;
 
     .card {
-      @include border-basic;
       padding: 1ch;
 
       .header {
@@ -545,7 +542,7 @@ onBeforeUnmount(() => {
 
       .soil {
         flex-grow: 1;
-        color: $color-text-gray;
+        color: color.$color-text-gray;
         width: 11ch;
       }
 
@@ -556,7 +553,7 @@ onBeforeUnmount(() => {
 
       .harvest,
       .shelf {
-        color: $color-text-gray;
+        color: color.$color-text-gray;
         width: 3ch;
         text-align: center;
       }
@@ -564,7 +561,7 @@ onBeforeUnmount(() => {
       .separator {
         margin-top: auto;
         margin-bottom: 0;
-        border-bottom: 1px dashed $color-border;
+        border-bottom: 1px dashed color.$color-border;
       }
     }
 
@@ -575,11 +572,11 @@ onBeforeUnmount(() => {
   }
 
   .Greenhouse {
-    color: $color-green;
+    color: color.$color-green;
   }
 
   .Stockpile {
-    color: $color-orange;
+    color: color.$color-orange;
   }
 
   .icon {
@@ -588,11 +585,11 @@ onBeforeUnmount(() => {
   }
 
   .gray-text {
-    color: $color-text-gray;
+    color: color.$color-text-gray;
   }
 
   .hightlight-tips *[title] {
-    box-shadow: 0 0 5px 2px $color-orange;
+    box-shadow: 0 0 5px 2px color.$color-orange;
   }
 }
 </style>

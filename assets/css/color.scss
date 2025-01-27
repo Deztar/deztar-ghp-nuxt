@@ -1,9 +1,11 @@
+@use 'sass:color';
+
 $color-black: #191b1b;
 $color-white: #d7dada;
-$color-black-85: mix($color-black, $color-white, 85%);
-$color-black-75: mix($color-black, $color-white, 75%);
-$color-black-50: mix($color-black, $color-white, 50%);
-$color-black-25: mix($color-black, $color-white, 25%);
+$color-black-85: color.mix($color-black, $color-white, 85%);
+$color-black-75: color.mix($color-black, $color-white, 75%);
+$color-black-50: color.mix($color-black, $color-white, 50%);
+$color-black-25: color.mix($color-black, $color-white, 25%);
 
 $color-blue: #04acac;
 $color-red: #f4898f;
@@ -12,7 +14,7 @@ $color-yellow: #ffdb3e;
 $color-orange: #ffb47d;
 $color-magenta: #c27ba0;
 
-$color-blue-white-50: mix($color-blue, $color-white, 50%);
+$color-blue-white-50: color.mix($color-blue, $color-white, 50%);
 
 $color-text: $color-white;
 $color-text-gray: $color-black-25;

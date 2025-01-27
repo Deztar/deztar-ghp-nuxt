@@ -18,27 +18,25 @@ const { checked, disabled } = defineProps({
 </script>
 
 <style lang="scss">
-@import '@css/color.scss';
-@import '@css/borders.scss';
+@use '@css/color.scss';
 
 .checkbox {
-  @include border-basic;
   display: inline-flex;
   align-items: center;
   padding: 0 3px;
   user-select: none;
 
   &.checked {
-    color: $color-white;
+    color: color.$color-white;
   }
 
   &:not(.checked) {
-    color: $color-black;
+    color: color.$color-black;
   }
 
   &.disabled {
-    color: $color-black;
-    border-color: $color-black;
+    color: color.$color-black;
+    border-color: color.$color-black;
     border-style: dashed;
     cursor: default;
   }

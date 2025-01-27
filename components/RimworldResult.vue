@@ -1,5 +1,5 @@
 <template>
-  <div :class="[mode]" class="card fc1">
+  <div :class="[mode]" class="card fc1 bs">
     <div class="header row">
       <div class="mode">{{ mode }}</div>
       <div class="plot"><img class="icon" :src="images.zone" /></div>

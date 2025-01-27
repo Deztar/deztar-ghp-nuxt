@@ -30,7 +30,7 @@
         <div class="hex-row" v-for="(arr, n) in matrix" :key="n">
           <div v-for="id in arr" :key="id" draggable="true" :id="`cell-${id}`"
             @dragstart="($event.dataTransfer as DataTransfer).setData('text/plain', `${id}`)"
-            @dragover="$event.preventDefault()" @drop="handleDrop" @click="handleCellClick" class="hex-cell">
+            @dragover="$event.preventDefault()" @drop="handleDrop" @click="handleCellClick" class="hex-cell bs">
             {{ rooms[id] || '' }}
           </div>
         </div>
@@ -147,8 +147,7 @@ onBeforeUnmount(() => {
 </script>
 
 <style lang="scss">
-@import '@css/color.scss';
-@import '@css/borders.scss';
+@use '@css/color.scss';
 
 #hex-tile-sandbox {
   align-items: center;
@@ -188,7 +187,6 @@ onBeforeUnmount(() => {
       justify-content: center;
 
       .hex-cell {
-        @include border-basic;
         display: flex;
         width: 12ch;
         height: 9ch;
@@ -200,8 +198,8 @@ onBeforeUnmount(() => {
         cursor: grab;
 
         &.highlight {
-          background-color: $color-border;
-          border-color: $color-text;
+          background-color: color.$color-border;
+          border-color: color.$color-text;
         }
       }
     }
