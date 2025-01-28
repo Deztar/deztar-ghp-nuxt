@@ -1,5 +1,11 @@
 <template>
   <div id="home" class="fc1">
+    <div>Tools:</div>
+    <div class="fc ac">
+      <template v-for="i of navItems">
+        <NuxtLink v-if="i.href" :to="i.href">{{ i.text }}</NuxtLink>
+      </template>
+    </div>
     <div>Storage used:</div>
     <ClientOnly>
       <StorageManager :hide-nuxt="true" />
@@ -8,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-//await navigateTo({path: '/rimworld-crop-planner'})
+import { navItems } from '~/lib'
 </script>
 
 <style lang="scss">
