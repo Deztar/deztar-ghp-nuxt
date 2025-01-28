@@ -24,7 +24,7 @@
           <tr v-for="(a, index) of armies" :key="index" :class="{ selected: editMode && selectedIndex === index }"
             @click="selectRow($event, index)">
             <td v-show="editMode" class="controls">
-              <input title="Position in array" class="number-short index" type="number" :value="index"
+              <input title="Position in array" class="number-short dim" type="number" :value="index"
                 @input="moveArmy(index, +($event.target as HTMLInputElement)?.value)" />
               <button class="delete" @click="copyArmy(index)">c</button>
               <button class="delete" @click="removeArmy(index)">x</button>
@@ -75,6 +75,13 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: 'Warhammer Army Planner',
+  meta: [{
+    name: 'description', content: 'Warhammer Army Planner'
+  }]
+})
+
 const unitTypes = [
   'Training 1',
   'Scouting 1',
@@ -221,10 +228,6 @@ onBeforeUnmount(() => {
 
 
 #wtw-army-planner {
-  .index {
-    color: color.$color-text-gray;
-  }
-
   .delete {
     width: 25px;
   }

@@ -11,7 +11,6 @@
     <div class="middle fc">
       <div class="page-header fc">
         <div class="title">Rimworld Crop Planner / Calculator</div>
-        <div class="gray-text"></div>
       </div>
       <div class="settings fr">
         <div class="buttons fc">
@@ -198,7 +197,7 @@
       </div>
       <div class="fc" style="align-items: center;">
         <div>Last save</div>
-        <div class="gray-text">{{ lastSaveTime }}</div>
+        <div class="dim">{{ lastSaveTime }}</div>
       </div>
     </div>
   </div>
@@ -582,10 +581,6 @@ onBeforeUnmount(() => {
   .icon {
     height: 25px;
     vertical-align: bottom;
-  }
-
-  .gray-text {
-    color: color.$color-text-gray;
   }
 
   .hightlight-tips *[title] {
