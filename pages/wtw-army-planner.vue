@@ -56,19 +56,21 @@
           <input title="Lord" class="name header" type="text" :value="armies[selectedIndex].lord"
             @input="armies[selectedIndex].lord = ($event.target as HTMLInputElement)?.value" />
         </div>
-        <template v-for="u of armies[selectedIndex].units" :key="u.type">
+        <template v-for="u, index of armies[selectedIndex].units" :key="u.type">
           <div class="border" v-if="separators.includes(u.type)" />
           <div class="row">
             <label>{{ getTypeName(u.type) }}</label>
             <input title="Number of units" class="number-short quantity" type="number" :value="u.quantity"
               @input="u.quantity = +($event.target as HTMLInputElement)?.value" @contextmenu.prevent="u.quantity = 0" />
             <input title="Unit name" class="name" type="text" :value="u.name"
-              @input="u.name = ($event.target as HTMLInputElement)?.value" list="unit-list" />
+              @input="u.name = ($event.target as HTMLInputElement)?.value" :list="getListName(index)" />
           </div>
         </template>
-        <datalist id="unit-list">
-          <option v-for="item in unitList" :value="item" />
-        </datalist>
+        <template v-for="list, index in unitLists">
+          <datalist :id="`unit-list-${index}`">
+            <option v-for="item in list" :value="item" />
+          </datalist>
+        </template>
       </div>
     </div>
   </div>
@@ -137,6 +139,11 @@ const autocompleteMode = ref(false)
 const armies = ref<Army[]>([])
 const selectedIndex = ref(0)
 const separators = ['Infantry 1', 'Cavalry 1', 'Monster 1', 'War Machine 1']
+const unitGroupMap: number[] = []
+for (let i = 0, l = unitTypes.length, group = 0; i < l; i++) {
+  if (separators.includes(unitTypes[i])) group++
+  unitGroupMap[i] = group
+}
 
 const loadData = () => {
   const data = JSON.parse(localStorage.getItem('wtw-data') || '{}')
@@ -201,16 +208,19 @@ const sortArmies = () => {
 
 const getTypeName = (t: string) => (isNaN(+t.slice(-1)) ? t : t.slice(0, -2))
 
-const unitList = computed(() => {
-  if (autocompleteMode.value === false) return []
-  const result: string[] = []
-  armies.value.forEach(a => {
-    a.units.forEach(u => {
-      if (u.name && result.indexOf(u.name) === -1) result.push(u.name)
+const unitLists = computed(() => {
+  const result: string[][] = []
+  for (let i = 0, l = separators.length + 1; i < l; i++) result[i] = []
+  if (autocompleteMode.value === true) {
+    armies.value.forEach(a => {
+      a.units.forEach((u, i) => {
+        if (u.name) result[unitGroupMap[i]].push(u.name)
+      })
     })
-  })
-  return result.sort()
+  }
+  return result
 })
+const getListName = (index: number) => `unit-list-${unitGroupMap[index]}`
 
 onMounted(() => {
   loadData()
