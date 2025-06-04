@@ -2,6 +2,8 @@
   <div id="brothers-planner" class="fc1" style="margin:1ch">
     <div class="fr jc ac">
       <button @click="saveData">Save</button>
+      <label>Attributes on level up: </label>
+      <input class="number-short" type="number" v-model="attrPerLvl">
     </div>
     <div class="fr jc">
       <div class="fc">
@@ -67,11 +69,11 @@
           <img src="https://static.wikia.nocookie.net/battlebrothers/images/3/3d/Level.png" class="icon" />
           <input class="number-short" type="number" v-model="item.data.level" />
           <div class="total dim">
-            <span class="total-lvlups" :class="[item.totalLvlups > (11 - item.data.level) * 3 ? 'neg' : 'good']">
+            <span class="total-lvlups" :class="[item.totalLvlups > (11 - item.data.level) * attrPerLvl ? 'neg' : 'good']">
               {{ item.totalLvlups }}
             </span>
             <span class="neg" v-if="item.overflow"> + {{ item.overflow }}</span>
-            / {{ (11 - item.data.level) * 3 }}
+            / {{ (11 - item.data.level) * attrPerLvl }}
           </div>
         </div>
         <div class="fr ac">
@@ -143,6 +145,7 @@ const getPerksFromLink = (link: string | undefined) => {
 // Ref
 const classes = ref<BrotherClass[]>([])
 const data = ref<Brother[]>([])
+const attrPerLvl = ref(3)
 
 // Computed
 const classesExt = computed<BrotherClassExtended[]>(() => classes.value.map(x => {
@@ -172,10 +175,10 @@ const dataExt = computed<BrotherExtended[]>(() => data.value.map(x => {
           (classAttr - broAttr) / ((attributeMins[key] || 0) + 1 + 0.5 * (x.talents[key] || 0))
         )
         ext.lvlupsNeeded[key] = lvlupsNeeded
-        const lvlupsAvailiable = 11 - x.level
-        if (lvlupsNeeded > lvlupsAvailiable) {
-          total += lvlupsAvailiable
-          overflow += lvlupsNeeded - lvlupsAvailiable
+        const lvlupsAvailable = 11 - x.level
+        if (lvlupsNeeded > lvlupsAvailable) {
+          total += lvlupsAvailable
+          overflow += lvlupsNeeded - lvlupsAvailable
         } else {
           total += lvlupsNeeded
         }
@@ -229,9 +232,14 @@ const loadData = () => {
   const obj = JSON.parse(localStorage.getItem('brothers-data') || '{}')
   data.value = obj.data || []
   classes.value = obj.classes || []
+  attrPerLvl.value = obj.attrPerLvl || 3
 }
 const saveData = () => {
-  localStorage.setItem('brothers-data', JSON.stringify({ data: data.value, classes: classes.value }))
+  localStorage.setItem('brothers-data', JSON.stringify({
+    data: data.value,
+    classes: classes.value,
+    attrPerLvl: attrPerLvl.value,
+  }))
 }
 
 onMounted(() => {
