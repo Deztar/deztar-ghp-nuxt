@@ -54,7 +54,7 @@ export interface Crop {
   produce?: ProduceType;
   yield?: number;
   growDays: number;
-  sensetivity: number;
+  sensitivity: number;
   hydroponics?: boolean;
   nutrition: number;
   image: string;
@@ -108,7 +108,7 @@ export interface RecordExtended {
 }
 
 export interface Settings {
-  hightlightTips: boolean;
+  highlightTips: boolean;
   growingSeason: number;
   offSeason: number;
   yieldMultiplier: number;

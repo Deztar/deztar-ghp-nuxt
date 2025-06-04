@@ -12,7 +12,7 @@ export const filteredCrops: Crop[] = crops.filter(x => x.produce === ProduceType
 export const cropImages: { [key: string]: string } = crops.reduce((p, c) => ({ ...p, [c.name]: c.image }), {})
 
 export const settingsDefault: Settings = {
-  hightlightTips: false,
+  highlightTips: false,
   growingSeason: 60,
   offSeason: 20,
   yieldMultiplier: 1,
@@ -30,7 +30,7 @@ export const settingsDefault: Settings = {
 
 export const farmingPlotsNeeded = (req: number, crop: Crop, soil: Soil, mode: string, settings: Settings) => {
   const season = mode === Mode.Greenhouse ? 60 : settings.growingSeason
-  const growDays = crop.growDays * realGrowthMult / (1 + soil.fertility * crop.sensetivity)
+  const growDays = crop.growDays * realGrowthMult / (1 + soil.fertility * crop.sensitivity)
   const consumeDays = mode === Mode.Stockpile ? settings.offSeason : 60
   const cropYield = (crop.yield || 1) * settings.yieldMultiplier
   let plots = 0
@@ -47,7 +47,7 @@ export const farmingPlotsNeeded = (req: number, crop: Crop, soil: Soil, mode: st
 }
 export const grazingPlotsNeeded = (req: number, crop: Crop, soil: Soil, mode: string, settings: Settings) => {
   const season = mode === Mode.Greenhouse ? 60 : settings.growingSeason
-  const growDays = crop.growDays * realGrowthMult / (1 + soil.fertility * crop.sensetivity)
+  const growDays = crop.growDays * realGrowthMult / (1 + soil.fertility * crop.sensitivity)
   const plots = growDays * req / crop.nutrition
   const harvestCount = season / growDays
   let harvestInt = Math.floor(harvestCount)

@@ -1,8 +1,8 @@
 <template>
-  <div id="rimworld-crop-planner" class="container fr1" :class="{ 'hightlight-tips': settings.hightlightTips }">
+  <div id="rimworld-crop-planner" class="container fr1" :class="{ 'highlight-tips': settings.highlightTips }">
     <div class="left">
       <div class="filter bs" :title="descriptions.filter">
-        <div v-for="(filter, index) of pawnFilterDiplay" @click="pawnFilterData[index] = !pawnFilterData[index]"
+        <div v-for="(filter, index) of pawnFilterDisplay" @click="pawnFilterData[index] = !pawnFilterData[index]"
           :class="{ disabled: filter.disabled }" :key="index">
           {{ filter.name }}
         </div>
@@ -26,9 +26,9 @@
         </div>
         <div class="inputs fc">
           <div class="fr1">
-            <label>Hightlight info</label>
-            <AppCheckbox :checked="settings.hightlightTips"
-              @click="settings.hightlightTips = !settings.hightlightTips" />
+            <label>Highlight info</label>
+            <AppCheckbox :checked="settings.highlightTips"
+              @click="settings.highlightTips = !settings.highlightTips" />
           </div>
         </div>
         <div class="inputs fc">
@@ -243,7 +243,7 @@ const lastSaveTime = ref('Never')
 
 const settings = ref<Settings>(settingsDefault)
 const pawnFilterData = ref<(Boolean | null)[]>(filterDefault)
-const pawnFilterDiplay = computed(() => pawns.map((x, i) => ({
+const pawnFilterDisplay = computed(() => pawns.map((x, i) => ({
   name: x.name,
   disabled: pawnFilterData.value?.[i] || false
 })))
@@ -583,7 +583,7 @@ onBeforeUnmount(() => {
     vertical-align: bottom;
   }
 
-  .hightlight-tips *[title] {
+  &.highlight-tips *[title] {
     box-shadow: 0 0 5px 2px color.$color-orange;
   }
 }
