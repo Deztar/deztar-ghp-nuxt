@@ -1,9 +1,12 @@
 <template>
   <teleport to="body">
-    <div v-show="isVisible" ref="bgDiv" class="modal-background" @click="clickHandler">
-      <div class="modal-container fc1 bs">
+    <div v-show="isVisible" ref="bgDiv" class="modal-background" @mousedown="mouseDownHandler"
+      @mouseup="mouseUpHandler">
+      <div v-bind="attrs" class="modal-container fc1 bs">
         <div class="modal-header fr1">
-          <button class="ml-auto" @click="isVisible = false">X</button>
+          <button class="ml-auto" @click="isVisible = false">
+            <span class="sls">x</span>
+          </button>
         </div>
         <div class="modal-content">
           <slot />
@@ -14,10 +17,15 @@
 </template>
 
 <script setup lang="ts">
+const attrs = useAttrs()
 const isVisible = defineModel<boolean>()
 const bgDiv = useTemplateRef('bgDiv')
-const clickHandler = (event: MouseEvent) => {
-  if (event.target === bgDiv.value) isVisible.value = false
+const mouseDownTarget = ref<EventTarget | null>(null)
+const mouseDownHandler = (event: MouseEvent) => {
+  mouseDownTarget.value = event.target
+}
+const mouseUpHandler = (event: MouseEvent) => {
+  if (mouseDownTarget.value === bgDiv.value && event.target === bgDiv.value) isVisible.value = false
 }
 </script>
 
@@ -26,6 +34,7 @@ const clickHandler = (event: MouseEvent) => {
 
 .modal {
   &-background {
+    z-index: 100;
     position: absolute;
     top: 0;
     width: 100%;

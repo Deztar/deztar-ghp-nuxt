@@ -28,3 +28,7 @@ logs
 
 # images
 public/img/tww
+
+# Internal testing
+pages/testing-ground
+components/test

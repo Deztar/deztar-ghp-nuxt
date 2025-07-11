@@ -12,8 +12,6 @@
 </template>
 
 <script setup lang="ts">
-import AppDialog from './AppDialog.vue';
-
 // Client Only
 const { hideNuxt } = defineProps({ 'hideNuxt': Boolean })
 
