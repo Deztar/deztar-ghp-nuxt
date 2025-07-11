@@ -148,11 +148,12 @@ for (let i = 0, l = unitTypes.length, group = 0; i < l; i++) {
 const loadData = () => {
   const data = JSON.parse(localStorage.getItem('wtw-data') || '{}')
   armies.value = data.armies || []
+  if (armies.value.length === 0) addNewArmy()
   armies.value.forEach((x) => {
     x.units = getUnitArray(x.units)
   })
-  editMode.value = data.editMode || false
-  autocompleteMode.value = data.autocompleteMode || false
+  editMode.value = data.editMode !== undefined ? data.editMode : true
+  autocompleteMode.value = data.autocompleteMode !== undefined ? data.editMode : true
 }
 const saveData = () => {
   const data: Army[] = []
@@ -186,14 +187,19 @@ const addNewArmy = () => {
 }
 const removeArmy = (index: number) => {
   armies.value.splice(index, 1)
-  selectedIndex.value = index - 1
+  if (selectedIndex.value > armies.value.length - 1)
+    selectedIndex.value = armies.value.length - 1
+  if (armies.value.length === 0) addNewArmy()
 }
 const moveArmy = (index: number, newIndex: number) => {
   clearTimeout(changeTimer)
   changeTimer = window.setTimeout(() => {
     const item = armies.value[index]
-    removeArmy(index)
+    armies.value.splice(index, 1)
     armies.value.splice(newIndex, 0, item)
+    selectedIndex.value = newIndex
+    if (document.activeElement?.tagName === 'INPUT')
+      (document.activeElement as HTMLInputElement).blur()
   }, 500)
 }
 const copyArmy = (index: number) => {

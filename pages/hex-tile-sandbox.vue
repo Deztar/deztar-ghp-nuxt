@@ -4,7 +4,7 @@
       <button @click="saveData()">Save</button>
       <button @click="pasteData()">Paste</button>
       <button @click="copyToClipboard()">Copy</button>
-      <button @click="hightlight()">Hightlight</button>
+      <button @click="highlight()">Highlight</button>
       <button @click="removeHighlight()">HL off</button>
       <label>Radius:</label>
       <input class="number-short" type="number" min="1" max="5" :value="radius"
@@ -118,7 +118,7 @@ const pasteData = () => {
 const copyToClipboard = () => {
   navigator.clipboard.writeText(JSON.stringify({ rooms: rooms.value }))
 }
-const hightlight = () => {
+const highlight = () => {
   document.querySelectorAll('.hex-cell').forEach(x => { x.classList.add('highlight') })
 }
 const removeHighlight = () => {

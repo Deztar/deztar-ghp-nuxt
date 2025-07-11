@@ -1,9 +1,11 @@
 <template>
-  <div id="brothers-planner" class="fc1" style="margin:1ch">
+  <div id="brothers-planner" class="fc1" style="margin:1ch" :class="{ 'highlight-tips': settings.highlightTips }">
     <div class="fr jc ac">
       <button @click="saveData">Save</button>
       <label>Attributes on level up: </label>
       <input class="number-short" type="number" v-model="attrPerLvl">
+      <label>Highlight info</label>
+      <AppCheckbox :checked="settings.highlightTips" @click="settings.highlightTips = !settings.highlightTips" />
     </div>
     <div class="fr jc">
       <div class="fc">
@@ -34,7 +36,7 @@
           </template>
         </div>
         <div class="fr ac">
-          <button @click.prevent="addClass">+</button>
+          <button @click.prevent="addClass" title="Add class">+</button>
         </div>
       </div>
     </div>
@@ -43,7 +45,7 @@
         <div class="fr ac">
           <input title="Position in array" class="number-short dim" type="number" :value="index"
             @input="moveBrother(index, +($event.target as HTMLInputElement).value)" />
-          <input title="Brother name" class="name" type="text" v-model="item.data.name" />
+          <input class="name" type="text" v-model="item.data.name" />
           <button class="delete" @click="removeBrother(index)">x</button>
         </div>
         <div v-for="key of attributeKeys" :key="key" class="fr ac">
@@ -69,7 +71,8 @@
           <img src="https://static.wikia.nocookie.net/battlebrothers/images/3/3d/Level.png" class="icon" />
           <input class="number-short" type="number" v-model="item.data.level" />
           <div class="total dim">
-            <span class="total-lvlups" :class="[item.totalLvlups > (11 - item.data.level) * attrPerLvl ? 'neg' : 'good']">
+            <span class="total-lvlups"
+              :class="[item.totalLvlups > (11 - item.data.level) * attrPerLvl ? 'neg' : 'good']">
               {{ item.totalLvlups }}
             </span>
             <span class="neg" v-if="item.overflow"> + {{ item.overflow }}</span>
@@ -94,7 +97,7 @@
           </template>
         </div>
       </div>
-      <div class="fr ac jc bs" style="width: 219px; height: 416px; box-sizing: border-box;">
+      <div class="fr ac jc bs" style="width: 219px; height: 416px; box-sizing: border-box;" title="Add brother">
         <button @click.prevent="addBrother">+</button>
       </div>
     </div>
@@ -146,6 +149,8 @@ const getPerksFromLink = (link: string | undefined) => {
 const classes = ref<BrotherClass[]>([])
 const data = ref<Brother[]>([])
 const attrPerLvl = ref(3)
+const settingsDefault = { highlightTips: false }
+const settings = ref(settingsDefault)
 
 // Computed
 const classesExt = computed<BrotherClassExtended[]>(() => classes.value.map(x => {
@@ -233,6 +238,7 @@ const loadData = () => {
   data.value = obj.data || []
   classes.value = obj.classes || []
   attrPerLvl.value = obj.attrPerLvl || 3
+  settings.value = obj.settings || settingsDefault
 }
 const saveData = () => {
   localStorage.setItem('brothers-data', JSON.stringify({
@@ -244,10 +250,10 @@ const saveData = () => {
 
 onMounted(() => {
   loadData()
-  addEventListener('beforeunload', saveData)
+  window.addEventListener('beforeunload', saveData)
 })
 onBeforeUnmount(() => {
-  removeEventListener('beforeunload', saveData)
+  window.removeEventListener('beforeunload', saveData)
   saveData()
 })
 </script>
@@ -322,6 +328,10 @@ onBeforeUnmount(() => {
         width: 32px;
       }
     }
+  }
+
+  &.highlight-tips *[title] {
+    box-shadow: 0 0 5px 2px color.$color-orange;
   }
 }
 </style>

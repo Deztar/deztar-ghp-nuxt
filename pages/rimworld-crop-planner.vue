@@ -27,8 +27,7 @@
         <div class="inputs fc">
           <div class="fr1">
             <label>Highlight info</label>
-            <AppCheckbox :checked="settings.highlightTips"
-              @click="settings.highlightTips = !settings.highlightTips" />
+            <AppCheckbox :checked="settings.highlightTips" @click="settings.highlightTips = !settings.highlightTips" />
           </div>
         </div>
         <div class="inputs fc">
@@ -78,7 +77,7 @@
             <td><img class="icon" :src="images.zone" /></td>
             <!-- <td><img class="icon" :src="images.harvest" /></td> -->
             <td><img class="icon" :src="images.shelf" /></td>
-            <td v-for="d in drugs " :key="d.name" style="min-width: 4ch">
+            <td v-for="d in drugs" :key="d.name" style="min-width: 4ch">
               <img class="icon" :src="d.image" :title="descriptions[d.name]" />
             </td>
           </tr>
@@ -91,7 +90,7 @@
             <td><input class="number-long" type="number" v-model="r.amount" /></td>
             <td><input class="name" type="text" v-model="r.name" /></td>
             <td><select class="pawn" v-model="r.pawn">
-                <option v-for="option of filteredPawns " :value="option" :key="option">
+                <option v-for="option of filteredPawns" :value="option" :key="option">
                   {{ option }}
                 </option>
               </select></td>
@@ -109,7 +108,7 @@
             </td>
             <td><img class="icon" :src="cropImages[r.crop]" :class="{ 'disabled': recExt[index].disableVeg }" /></td>
             <td><select class="crop" v-model="r.crop" :disabled="recExt[index].disableVeg">
-                <option v-for="option of filteredCrops " :value="option.name" :key="option.name">
+                <option v-for="option of filteredCrops" :value="option.name" :key="option.name">
                   {{ option.name }}
                 </option>
               </select></td>
@@ -119,7 +118,7 @@
                 </option>
               </select></td>
             <td><select class="mode" v-model="r.mode" :class="[r.mode]">
-                <option v-for="option of Mode " :value="option" :key="option" :class="[option]">
+                <option v-for="option of Mode" :value="option" :key="option" :class="[option]">
                   {{ option }}
                 </option>
               </select></td>
@@ -133,7 +132,7 @@
               <div class="shelf number-short">{{ recExt[index].shelves }}</div>
             </td>
             <template v-if="recExt[index].pawn.canTakeDrugs">
-              <td v-for=" d in drugs " :key="d.name">
+              <td v-for="d in drugs" :key="d.name">
                 <input class="number-long" type="number" v-model="r.drugs[d.name]" />
               </td>
             </template>
@@ -397,10 +396,10 @@ const reset = () => {
 
 onMounted(() => {
   loadFromStorage()
-  addEventListener('beforeunload', saveToStorage)
+  window.addEventListener('beforeunload', saveToStorage)
 })
 onBeforeUnmount(() => {
-  removeEventListener('beforeunload', saveToStorage)
+  window.removeEventListener('beforeunload', saveToStorage)
   saveToStorage()
 })
 </script>
