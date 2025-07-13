@@ -3,12 +3,20 @@
 </template>
 
 <script setup lang="ts">
-const { disabled } = defineProps({
-  disabled: {
-    type: Boolean,
-    default: false,
-  },
-})
+const {
+  disabled = false,
+  falseAsUndefined = false
+} = defineProps<{
+  disabled?: boolean
+  falseAsUndefined?: boolean
+}>()
 const model = defineModel<boolean>()
-const handleClick = () => { if (!disabled) model.value = !model.value }
+const handleClick = () => {
+  if (disabled) return
+  if (falseAsUndefined) {
+    if (model.value) model.value = undefined
+    else model.value = true
+  }
+  else model.value = !model.value
+}
 </script>

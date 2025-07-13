@@ -25,7 +25,7 @@ const enable = () => {
   if (input) {
     input.focus()
     input.setSelectionRange(
-      input.value.length,
+      0,
       input.value.length
     )
   }
