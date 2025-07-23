@@ -3,30 +3,31 @@
     <div class="fr1">
       <button @click="saveData">Save</button>
       <button @click="copyBuild">Copy</button>
-      <button @click="clearSelection">Clear Selection</button>
+      <button @click="clearSelection">Clear selection</button>
       <div class="fr jc ac">
         <label>Danger Mode:</label>
         <AppCheckboxModel v-model="dangerMode" />
       </div>
-      <button @click="exportData">Export Data</button>
+      <button @click="exportData()">Export all</button>
+      <button style="margin-left: 10px" @click="exportData(build.name, true)">Export selected</button>
       <div class="fr jc ac">
         <label>Import Data:</label>
         <input type="file" @change="importData" accept=".json" placeholder="Import Data" />
       </div>
     </div>
     <div class="fr1" style="flex-grow: 1">
-      <div class="fc1" style="width: calc(50vw - 40px);">
-        <AppDragAndDropCollection class="bs fr1 jc wide-flex" style="padding:1ch" unique-id="tabs" @drop="swapBuilds"
-          v-model:drag-start-index="dragStartIndex" v-model:drag-over-index="dragOverIndex">
-          <template v-for="item, index in data" :key="index">
-            <div class="drag-drop-item fr ac"
-              :class="{ active: index === dragOverIndex || index === dragStartIndex || index === dataIndex }"
-              draggable="true" :drag-drop-id="index" @click="selectBuild(index)">
-              {{ item.name }}
-            </div>
-          </template>
-          <button @click="addBuild"><span class="sss">+</span></button>
-        </AppDragAndDropCollection>
+      <AppDragAndDropCollection class="bs fc" style="padding:1ch;" unique-id="builds" @drop="insertBuildBefore"
+        v-model:drag-start-index="dragStartIndex" v-model:drag-over-index="dragOverIndex">
+        <template v-for="item, index in data" :key="index">
+          <div class="drag-drop-item fr ac"
+            :class="{ active: index === dragOverIndex || index === dragStartIndex || index === dataIndex }"
+            draggable="true" :drag-drop-id="index" @click="selectBuild(index)">
+            {{ item.name }}
+          </div>
+        </template>
+        <button @click="addBuild"><span class="sss">+</span></button>
+      </AppDragAndDropCollection>
+      <div class="fc1 half">
         <div v-if="build" class="fc1 ac" style="flex-grow: 1;">
           <div class="fr0">
             <AppInputWithButton v-model="build.name" class="bs" style="margin-right: -1px;" />
@@ -76,7 +77,7 @@
           </div>
         </div>
       </div>
-      <div class="fc1 items">
+      <div class="fc1 items half">
         <div class=" fr0 tabs" style="flex-wrap: wrap;">
           <div v-for="tab of tabs" class="bs tab" :class="{ active: tab === selectedTab }" @click="selectTab(tab)">
             {{ tab }}
@@ -111,7 +112,7 @@ interface Build {
   psykerSchools: Record<string, boolean>
   t1Selection: Array<string | undefined>[]
   t2Selection: Array<string | undefined>[]
-  ExSelection: Array<string | undefined>[]
+  exSelection: Array<string | undefined>[]
 }
 type DisplayData = {
   value: string
@@ -135,7 +136,7 @@ const archetype = computed<Rank[]>(() => selectedArchetype.value ? archetypes[se
 const selection = computed(() => {
   if (selectedArchetype.value === build.value.t1Archetype) return build.value.t1Selection
   if (selectedArchetype.value === build.value.t2Archetype) return build.value.t2Selection
-  return build.value.ExSelection
+  return build.value.exSelection
 })
 const levelOffset = computed(() => {
   if (selectedArchetype.value === build.value.t1Archetype) return 0
@@ -193,8 +194,8 @@ const tabs = computed(() => {
   }
   if (build.value.origin?.includes('Psyker')) result.push('Psyker')
   result.push(build.value.origin)
-  if (talentFeatures.includes(feature)) result.push(build.value.homeworld)
   result.push(...schools.value)
+  if (talentFeatures.includes(feature)) result.push(build.value.homeworld)
   if (feature === Feature.CommonTalent) result.push('Common')
   return result.filter(x => typeof x === 'string')
 })
@@ -207,12 +208,17 @@ const items = computed(() => {
   if (feature === Feature.Upgrade) return ['I', 'II', 'III', 'IV'].map(x => ({ name: x }))
   // Tabbed items next
   if (!selectedTab.value) return []
-  if (talentFeatures.includes(feature))
+  if (talentFeatures.includes(feature) && talents[selectedTab.value])
     return talents[selectedTab.value].map(x => ({ ...x, disabled: selectionFlat.value.includes(x.name) }))
-  if (abilityFeatures.includes(feature))
+  if (abilityFeatures.includes(feature) && abilities[selectedTab.value])
     return abilities[selectedTab.value].map(x => ({ ...x, disabled: selectionFlat.value.includes(x.name) }))
+  return []
 })
-const selectionFlat = computed(() => selection.value ? selection.value.flatMap(x => x) : [])
+const selectionFlat = computed(() =>
+  (build.value.exSelection || [])
+    .concat(build.value.t1Selection || [], build.value.t2Selection || [])
+    .flatMap(x => x)
+)
 
 const selectArchetype = (a: string | undefined) => {
   selectedArchetype.value = a
@@ -239,7 +245,7 @@ const clearSelection = () => {
   if (!dangerMode.value && !confirm('This will clear currently selected archetype')) return
   if (selectedArchetype.value === build.value.t1Archetype) build.value.t1Selection = []
   if (selectedArchetype.value === build.value.t2Archetype) build.value.t2Selection = []
-  if (selectedArchetype.value === 'Exemplar') build.value.ExSelection = []
+  if (selectedArchetype.value === 'Exemplar') build.value.exSelection = []
 }
 
 // Builds
@@ -249,7 +255,7 @@ const addBuild = () => {
     psykerSchools: {},
     t1Selection: [],
     t2Selection: [],
-    ExSelection: []
+    exSelection: []
   })
   selectBuild(data.value.length - 1)
 }
@@ -264,11 +270,11 @@ const removeBuild = (index: number) => {
 const copyBuild = () => {
   data.value.push(JSON.parse(JSON.stringify(data.value[dataIndex.value])))
 }
-const swapBuilds = (to: number, from: number) => {
+const insertBuildBefore = (to: number, from: number) => {
   if (to < 0 || from < 0) return
   const item = data.value[from]
-  data.value[from] = data.value[to]
-  data.value[to] = item
+  data.value.splice(from, 1)
+  data.value.splice(to, 0, item)
   selectBuild(to)
 }
 const selectBuild = (index: number) => {
@@ -276,14 +282,14 @@ const selectBuild = (index: number) => {
   selectArchetype(build.value.t1Archetype || 'Exemplar')
 }
 
-const exportData = () => {
-  const jsonString = JSON.stringify(data.value, null, 2)
+const exportData = (name = 'builds', single = false) => {
+  const jsonString = JSON.stringify(single ? [build.value] : data.value, null, 2)
   const blob = new Blob([jsonString], { type: 'application/json' })
   const url = URL.createObjectURL(blob)
 
   const link = document.createElement('a')
   link.href = url
-  link.download = 'builds.json'
+  link.download = `${name.replaceAll(' ', '_')}.json`
   link.click()
 
   URL.revokeObjectURL(url)
@@ -319,7 +325,7 @@ const loadData = () => {
   selectedTab.value = obj.selectedTab || undefined
   rankIndex.value = obj.rankIndex || 0
   featureIndex.value = obj.featureIndex || 0
-  dataIndex.value = obj.dataIndex || 0
+  if (data.value[obj.dataIndex || 0]) dataIndex.value = obj.dataIndex || 0
 }
 const saveData = () => {
   localStorage.setItem('rogue-trader-data', JSON.stringify({
@@ -346,13 +352,15 @@ onBeforeUnmount(() => {
 @use '@css/borders.scss';
 
 #rogue-trader-builder {
+  --padding: 40px;
   user-select: none;
   margin: 10px;
 
   .drag-drop-item {
-    padding: 0 10px;
+    padding: 2px 10px;
     cursor: grab;
     min-height: 25px;
+    flex-shrink: 0;
   }
 
   .archetype-selector>div {
@@ -405,8 +413,14 @@ onBeforeUnmount(() => {
     }
   }
 
-  .items {
-    width: calc(50vw - 40px);
+  #builds {
+    width: calc(10vw - var(--padding));
+    max-height: 80vh;
+    overflow-y: scroll;
+  }
+
+  .half {
+    width: calc(45vw - var(--padding));
   }
 
   .tabs {
@@ -423,12 +437,6 @@ onBeforeUnmount(() => {
 
   .active {
     background-color: color.$color-border;
-  }
-
-  .wide-flex {
-    flex-wrap: wrap;
-    row-gap: 10px;
-    max-width: 1400px;
   }
 }
 </style>

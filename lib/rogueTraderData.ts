@@ -470,7 +470,7 @@ export const abilities: Record<string, { name: string, description: string }[]> 
   "Arch-Militant": [
     {
       "name": "Cautions Approach",
-      "description": "Whenever the Arch-Militant uses an attack that is of a different type from their previous attack, the Arch-Militant gains a stack of versatility. The types of attacks can be single shot, single melee attack, area melee attack, area shot, or burst. The Arch-Militant gains +3 WS and BS for every stack of versatility. If the Arch-Militant has 4 or more stacks of versatility, the Arch-Militant deals an additional +(10 + WS bonus)% or +(10 + BS bonus)% damage, whichever is highest."
+      "description": "The Arch-Militant gains the cautious approach effect until the end of combat, or until this ability is used again, or until using Confident Approach. Instead of the usual bonuses from versatility, the Arch-Militant gains +5% dodge and parry for every stack. If the Arch-Militant already has 4 or more stacks of versatility, the Arch-Militant removes all slowed, blinded, bleeding, burning, and toxin effects from themselves and becomes immune to these effects, as well as stun and prone, for as long as the Arch-Militant keeps the cautious approach effect active."
     },
     {
       "name": "Confident Approach",
@@ -915,7 +915,7 @@ export const abilities: Record<string, { name: string, description: string }[]> 
       "description": "Telepaths are psykers whose mental expertise lies in contacting and controlling the minds of others. With a single thought, a telepath can tear away his foe's sanity, induce states of numbing terror, or possess his victim's thoughts and mould their actions as if they were his own."
     }
   ],
-  "Biomancer": [
+  "Biomancy": [
     {
       "name": "Enfeeble",
       "description": "Until the end of combat, all targets within the area suffer a -(5 + 3 X psy rating) penalty to Strength and Agility and +(3 + 2 X psy rating)% increase to all incoming damage."
@@ -937,7 +937,7 @@ export const abilities: Record<string, { name: string, description: string }[]> 
       "description": "Until the end of combat, the target ally increases their MP by +(3 + psyker's psy rating), their Agility by +(3 + psyker's psy rating), and their AP by +1."
     }
   ],
-  "Diviner": [
+  "Divination": [
     {
       "name": "Foreboding",
       "description": "Creates an area that lasts until the start of the psyker's next turn. All allies within that area gain +(3 x psyker's psy rating)% Their dodge chance cannot be less than (psyker's PER bonus + WP bonus)%."
@@ -959,7 +959,7 @@ export const abilities: Record<string, { name: string, description: string }[]> 
       "description": "Whenever an ally suffers damage that would make them fall unconscious, the psyker immediately gains an extra turn. During that turn, the psyker can only use Prophetic Intervention. This power can only be used under these conditions. Prophetic Intervention restores the ally's wounds to the amount they had before the attack that triggered the intervention. However, the psyker's psy rating is reduced by -1 until the end of combat. ! This power can only be used by psykers with a psy rating of 3 or higher."
     }
   ],
-  "Pyromancer": [
+  "Pyromancy": [
     {
       "name": "Firestorm",
       "description": "This psychic power only impacts creatures suffering from warp burn or burning. Everyone adjacent to the target point suffers the effects of the Ignite psychic power."
@@ -985,7 +985,7 @@ export const abilities: Record<string, { name: string, description: string }[]> 
       "description": "The target does not stop burning and no longer makes tests to stop burning. Additionally, if the target is an ally, every melee attack that ally makes inflicts full burning damage on targets of their attack, while they themselves now only suffer half burning damage from now on."
     }
   ],
-  "Sanctic": [
+  "Sanctic Powers": [
     {
       "name": "Hammer of the Emperor",
       "description": "All allies affected by Word of the Emperor gain the Hammer of the Emperor effect. Next time they deal damage, this damage is increased by +(5 X psyker's psy rating + ally's resolve), and the effect is removed. ! This psychic power can only be used while there is at least one ally affected by Word of the Emperor."
@@ -1007,7 +1007,7 @@ export const abilities: Record<string, { name: string, description: string }[]> 
       "description": "This psychic power costs 50 momentum and can only be used when momentum is 175 or higher. Until the end of combat, the weapon in the psyker's hand is replaced by a sword made of sheer will. - This sword has a single-target attack and an area attack (like a two-handed sword) and can be used to release a cone of fire or a line of fire (like a flamethrower). - The damage of this sword is the same as that of Purge Soul (with all the same bonuses). - If the psyker used a force weapon, all the bonuses from that force weapon remain. For the purposes of talents and other bonuses, the Sword of Faith."
     }
   ],
-  "Telepath": [
+  "Telepathy": [
     {
       "name": "Dominate",
       "description": "The target must pass a Willpower resistance test with a -(5 X psy rating) penalty, or at their next turn they will spend all their movement points to move as close as possible toward the psyker. They can act as normal, but all their MP are spent on moving toward the psyker. At the end of their turn, the target must make the Willpower resistance test again, otherwise they remain under this effect."
@@ -2186,10 +2186,6 @@ export const talents: Record<string, { name: string, description: string }[]> = 
       "description": "When the character's single shots deal damage to targets other than their main target, they gain +5 Ballistic Skill until the end of combat."
     },
     {
-      "name": "Masterful Display",
-      "description": "When the character's single shots deal damage to targets other than their main target, they gain +5 Ballistic Skill until the end of combat."
-    },
-    {
       "name": "Masterful Precision",
       "description": "Deadeye shot deals an additional +(2 x PER bonus)% damage. The following ranged attack abilities gain deadeye shot benefits (x 1.5 range and the additional damage from the talent itself): -Bounty Hunter's Claim the Bounty -Master Tactician's Finish the Job -Assassin's Death Whisper -Assassin's Killing Edge -Assassin's Dispatch -Operative's Dismantling Attack -Bounty Hunter's Wild Hunt."
     },
@@ -3236,19 +3232,19 @@ export const talents: Record<string, { name: string, description: string }[]> = 
       "description": "Whenever the psyker uses a damaging psychic power on targets that are 6 cells or farther from the psyker, the targets suffer an additional +BS bonus damage."
     },
     {
-      "name": "Psyker Minoris (Psy Rating 1)",
+      "name": "Psyker Minoris",
       "description": "Each level of psy rating provides the psyker access to new psychic powers. It also strengthens damaging psychic powers. 4/9"
     },
     {
-      "name": "Psyker Majoris (Psy Rating 2)",
+      "name": "Psyker Majoris",
       "description": "Each level of psy rating provides the psyker access to new psychic powers. It also strengthens damaging psychic powers. 14/19"
     },
     {
-      "name": "Psyker Extremis (Psy Rating 3)",
+      "name": "Psyker Extremis",
       "description": "Each level of psy rating provides the psyker access to new psychic powers. It also strengthens damaging psychic powers. 24/29"
     },
     {
-      "name": "Psyker Terminus (Psy Rating 4)",
+      "name": "Psyker Terminus",
       "description": "Each level of psy rating provides the psyker access to new psychic powers. It also strengthens damaging psychic powers. 34/39"
     },
     {

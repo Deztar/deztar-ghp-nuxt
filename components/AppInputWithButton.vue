@@ -54,6 +54,8 @@ onBeforeUnmount(() => {
 @use '@css/color.scss';
 
 .input-with-button {
+  padding-left: 5px;
+
   &.active {
     background-color: color.$color-border;
   }
